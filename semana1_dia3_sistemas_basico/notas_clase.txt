@@ -1,0 +1,26 @@
+Hoy hemos hablado de sistemas operativos y redes a groso modo. 
+
+- Windows powershell & cmd --> windows no es un SO multiusario ni multitarea como LINUX 
+- NAT 
+- Windows server --> compartir recursos en NAT a traves de Active Directory = control por dominio
+- Apache tomcat (servidor para .NET) --> IIS 
+- FTP fillezilla para subir directorio web a servidor de dominio en un hostin. (HACE PUSH ; GET; ... por detras).
+
+LINUX
+
+Permisos: 3 LECTURA ESCRITURA EJECUCION 
+
+
+permisos    usuario   grupo
+-rw-r--r--  1 root    root 
+
+permisos 
+
+me    group  others
+-xxx  -xxx   -xxx 
+
+cambiar permisos using 'chmod'
+Author 
+Administrador > root 
+
+ver los directorios de un fichero 'ls'
