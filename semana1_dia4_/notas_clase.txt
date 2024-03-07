@@ -2,7 +2,7 @@ Sistemas
     -administracion de memoria --> en linux (almacenamiento continuo + algoritmos) , windows (cada 32bits en FIFO),
     solaris( algoritmos) --> formatos de archivo fat32(hasta 4gb por archivo) , exFAT (para todos los OS hasta 16ET), NFTS(hasta 16 windows y linux)
     
-    -gestion de discos (GPT y MRB), RAID 0 (dos discos duplicando), raid5 distribuir en 4 discos las particiones 
+    -gestion de discos (GPT y MRB), RAID 0 (dos discos duplicando), raid5 distribuir en 4 discos las particiones o volumenes
     y en una de control una unidad basada en todas las particiones(una sola particion)
 
 Introducion a la virtualizaicon 
