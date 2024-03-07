@@ -1,4 +1,11 @@
 
+figcaption {
+  color: #000000;
+  opacity: 38%;
+  font-family: monospace;
+  font-size: 14px;
+}
+
 body {
   background-color: blueviolet;
   width: 100%;
