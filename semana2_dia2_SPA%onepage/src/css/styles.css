@@ -36,6 +36,14 @@
     background-repeat: no-repeat;
 }
 
+.fixed-end {
+    align-self: flex-end;
+    width: 30%;
+    margin-right: 0.8em;
+    margin-bottom: 0.5em;
+    background-color: #04BFBF;
+}
+
 .button-1 {
     width: 18%;
     height: auto;
