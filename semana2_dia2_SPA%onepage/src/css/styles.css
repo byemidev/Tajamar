@@ -69,6 +69,8 @@
     
     }
 
+    /*intento enviar el </a> de los card al margen izquierdo y bottom 0*/
+
     article {
         display: flex;
         flex-direction: column;
