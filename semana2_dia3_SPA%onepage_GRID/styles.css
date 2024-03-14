@@ -2,16 +2,13 @@
 
 .grid {
     display: grid;
-    grid-template: "head head head head" auto "side1 main main side2" 300px / 1fr 1fr 1fr 1fr;
-    grid-auto-rows: 200px;
-    grid-gap: 20px;
+    grid-template: repeat(2, 50px)/*rows*/ / repeat(3, 1fr)/*columns*/;
+    grid-gap: 3px;
 }
-
-/*no esta funcionando grid-gap ?? o error de sintexis*/
 
 .grid div {
     border: 4px solid black;
     border-radius: 5px;
-    background-color: bisque;
+    background-color: blueviolet;
     padding: 0.2em;
 }
