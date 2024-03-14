@@ -17,6 +17,8 @@ body {
     margin: 0 auto;
     padding: 2rem;
     background-color: beige;
+    border: 2px solid black;
+    border-radius: 1.2em;
   }
 
   label {
@@ -36,6 +38,7 @@ body {
     background-color: #f0eeea;
     border: 1px solid #0a0a23;
     color: #000000;
+    border-radius: 20px;
   }
 
   .inline {
@@ -46,4 +49,12 @@ body {
 
   .imline {
     display: inline;
+  }
+
+  input[type=text] {
+    padding-left: 1em;
+  }
+
+  input[type=email] {
+    padding-left: 1em;
   }
