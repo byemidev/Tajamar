@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="form-container" style="display: flexbox; background-color: aquamarine;">
+        <form action="dest.php" name="formweb" method="GET" style=" display: block;  background-color: bisque;">
+            <fieldset id="personal-info">
+                <legend>Personal information</legend>
+                <label class="item" for="name">Nombre: <input id="name" name="name" type="text" placeholder="Alvaro" required></label>
+                <label class="item" for="surname">Apellido <input id="surname" name="surname" type="text" placeholder="Zapata" required></label>
+                <label for="datebday">Ur bday<input type="datetime-local"
+                    id="Test_DatetimeLocal"
+                    min="2015-01-01T00:00"
+                    max="2025-12-31T23:59"
+                    step="1"></label>
+                <label class="item" for="mail">Correo <input id="mail" name="mail" type="email" placeholder="tumail@seri.com" required></label>
+                <label class="item" for="telf">Movil <input id="telf" name="telf" type="tel" placeholder="+34" pattern="[0-9]{9}"></label>
+                <label class="item" for="pass">Constraseña <input id="pass" name="pass" type="password" required></label>
+            </fieldset>
+
+            <fieldset id="encuesta">
+                <legend>Encuesta</legend>
+                <label for="hombre">Hombre: <input id="hombre" name="sexo" type="radio" checked></label>
+                <label for="mujer">Mujer: <input id="mujer" name="sexo" type="radio" checked></label>
+                <label for="deporte"> Deporte que practicas: 
+                    <select name="deporte" id="deporte">
+                        <option>none</option>
+                        <option id="fut">Futbol</option>
+                        <option id="nat">natacion</option>
+                        <option id="run">running</option>
+                        <option id="gym">gym</option>
+                        <option id="bal">basket</option>
+                        <option id="sky">sky</option>
+                    </select>
+                </label>
+                <label for="datetime">Date-time <input type="datetime"></label>
+            </fieldset>
+            
+            <fieldset id="comentarios">
+                <legend>Comentarios</legend>
+                <textarea id ="comentarios" cols="36" rows="12" name="comentarios" placeholder="Aqui tus comentarios" style="resize: none;">
+                </textarea>
+            </fieldset>
+
+            <input id="coment" value="coment" type="submit">
+        </form>
+    </div>
+</body>
+</html>
