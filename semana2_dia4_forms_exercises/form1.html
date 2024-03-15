@@ -7,24 +7,27 @@
     <title>form1</title>
 </head>
 <body>
-    <form action="pushform.php">
-        <label for="name">Nombre: <input id="name" type="text" name="name" maxlength="30" placeholder="Escribe tu nombre"></label>
-        <label for="apellidos">Apellidos: <input id="surname" type="text" name="apellidos" maxlength="30" placeholder="Escribe un apellido"></label>
-        <label for="email">Email: <input id="email" type="email" placeholder="correo@empresa.com" required></label>
-        <label for="asunto">Asunto: <select name="asunto" id="asunto" size="3" style="overflow: hidden;">
-            <option id="presu" value="presu">Pedir presupuesto WEB</option>
-            <option id="info" value="info">Pedir informacion</option>
-            <option id="otro" value="otro">Otros</option>
-        </select></label>
-        <fieldset>
-            <legend>Como nos has conocido?</legend>
-            <label for="amigo"><input id="amigo" name="asunto" value="amigo" type="radio" class="inline" checked>Un amigo</label>
-            <label for="google"><input id="google" name="asunto" value="google" type="radio" class="inline">Googleando</label>
-            <label for="buzon"><input id="buzon" name="asunto" value="buzon" type="radio" class="inline">Buzoneo</label>
-            <label for="otro"><input id="otro" name="asunto" value="otro" type="radio" class="inline">Otros</label>
-        </fieldset>
-        <label for="mensaje">Escribe tu mensaje <textarea name="mensaje" id="mensaje" cols="40" rows="5" maxlength="300"></textarea></label>
-        <label for=""><input type="checkbox" class="inline"> He leido y acepto el <a href="#">aviso legal y la politica de privacidad</a></label>
-    </form>
+    <div id="grid">
+        <form id="form1" action="pushform.php">
+            <label for="nombre">Nombre: <input id="nombre" type="text" name="nombre" maxlength="30" placeholder="Escribe tu nombre"></label>
+            <label for="apellidos">Apellidos: <input id="surname" type="text" name="apellidos" maxlength="30" placeholder="Escribe un apellido"></label>
+            <label for="email">Email: <input id="email" type="email" placeholder="correo@empresa.com" required></label>
+            <label for="asunto">Asunto: <select name="asunto" id="asunto" size="3" required>
+                <option id="presu" value="presu">Pedir presupuesto WEB</option>
+                <option id="info" value="info">Pedir informacion</option>
+                <option id="otro" value="otro">Otros</option>
+            </select></label>
+            <fieldset>
+                <legend>Como nos has conocido?</legend>
+                <label for="amigo"><input id="amigo" name="asunto" value="amigo" type="radio" class="inline" checked>Un amigo</label>
+                <label for="google"><input id="google" name="asunto" value="google" type="radio" class="inline">Googleando</label>
+                <label for="buzon"><input id="buzon" name="asunto" value="buzon" type="radio" class="inline">Buzoneo</label>
+                <label for="otro"><input id="otro" name="asunto" value="otro" type="radio" class="inline">Otros</label>
+            </fieldset>
+            <label for="mensaje">Escribe tu mensaje <textarea name="mensaje" id="mensaje" cols="40" rows="10" maxlength="300" placeholder="About your experience (max.300 chars)."></textarea></label>
+            <label for=""><input type="checkbox" class="inline" required> He leido y acepto el <a href="#">aviso legal y la politica de privacidad</a></label>
+            <input id="submit" value="enviar" type="submit">
+        </form>
+    </div>
 </body>
 </html>
