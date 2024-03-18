@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../src/css/styles-registration.css">
+    <title>form1</title>
+</head>
+<body>
+    <div id="grid">
+        <form id="form1" action="../../back-end/regis_newsletterAction.php" method="POST">
+            <label for="nombre">Nombre: <input id="nombre" type="text" name="nombre" maxlength="30" placeholder="Escribe tu nombre" required></label>
+            <label for="surname">Apellidos: <input id="surname" type="text" name="apellidos" maxlength="30" placeholder="Escribe un apellido" required></label>
+            <label for="email">Email: <input id="email" type="email" name="email" placeholder="correo@empresa.com" required></label>
+            <fieldset>
+                <legend>Como nos has conocido?</legend>
+                <label for="amigo"><input id="amigo" name="origen" value="amigo" type="radio" class="inline" checked>Un amigo</label>
+                <label for="google"><input id="google" name="origen" value="google" type="radio" class="inline">Googleando</label>
+                <label for="buzon"><input id="buzon" name="origen" value="buzon" type="radio" class="inline">Buzoneo</label>
+                <label for="otro"><input id="otro" name="origen" value="otro" type="radio" class="inline">Otros</label>
+            </fieldset>
+            <label for="checkbox"><input type="checkbox" class="inline" required> He leido y acepto el <a href="#">aviso legal y la politica de privacidad</a></label>
+            <input id="submit" value="enviar" type="submit">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+* {box-sizing: border-box;}
+
+/*Grid: usando grid y colocando formulario por 'grid line'*/
+
+#grid {
+  display: grid;
+  grid-template-columns: [form1-start] 1fr [form1-end];
+  grid-template-rows:10% [form1-start]  auto auto [form1-end];
+}
+
+#form1 {
+  grid-column: form1-start / form1-end;
+  grid-row: form1-start / form1-end;
+
+  max-width: 450px;
+  min-width: 230px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgb(108, 220, 230);
+  border: 2px solid rgb(11, 2, 63);
+  border-radius: 1.2em;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: Tahoma;
+    font-size: 12px;
+    overflow-x: hidden;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+
+  input, textarea {
+    background-color: #f0eeea;
+    border: 1px solid #0a0a23;
+    color: #000000;
+    border-radius: 20px;
+  }
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+  .inline {
+    display: inline;
+  }
+
+  input[type=text] {
+    padding-left: 1em;
+  }
+
+  input[type=email] {
+    padding-left: 1em;
+  }
+
+  select[id=asunto] {
+    overflow: hidden;
+  }
+
+  textarea[id=mensaje] {
+    padding-top: 1em;
+    padding-left: 1em;
+    resize: none;
+  }
+
+  input[type=submit] {
+    width: 35%;
+    height: 1.2rem;
+  }
