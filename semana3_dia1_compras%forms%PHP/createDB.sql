@@ -25,6 +25,8 @@ CREATE TABLE COMPRAS (
     nombre_art varchar(50),
     cantidad_art varchar(100),
     fechacompra_art varchar(50),
-    CONSTRAINT COMPRAS_PK PRIMARY KEY (id_compras)
+    CONSTRAINT COMPRAS_PK PRIMARY KEY (id_compras),
+    CONSTRAINT COMPRAS_FK_ART FOREIGN KEY (nombre_art) REFERENCES  ARTICULOS(nombre_art),
+    CONSTRAINT COMPRAS_FK_ART FOREIGN KEY (nombre_art) REFERENCES  CLIENTES(nombre_cli)
 );
 
