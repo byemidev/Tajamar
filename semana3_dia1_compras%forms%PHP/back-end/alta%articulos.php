@@ -1,15 +1,9 @@
 <?php
-    $serverName ="localhost";
-    $user ="root";
-    $pass ="";
-    $database ="compras";
-
-    $conn = mysqli_connect($serverName, $user, $pass, $database);
-
-    if(!$conn){
-        die("fallo de conexion" . mysqli_connect_error());
-    }
-
+    //necesito getConn.php
+    require_once('getConn.php')
+    $conn = getConn();//obtengo la conexion 
+    
+    //reocojo los datos del formulario
     $nombre = $_POST["nombre_art"];
     $cod = $_POST["codigo_art"];
     $des = $_POST["descripcion_art"];

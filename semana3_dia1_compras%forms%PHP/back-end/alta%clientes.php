@@ -1,14 +1,7 @@
 <?php
-    $serverName ="localhost";
-    $user ="root";
-    $pass ="";
-    $database ="compras";
-
-    $conn = mysqli_connect($serverName, $user, $pass, $database);
-
-    if(!$conn){
-        die("fallo de conexion" . mysqli_connect_error());
-    }
+    
+    require_once('getConn.php');
+    $conn = getConn();
 
     $nombre = $_POST["nombre_cli"];
     $cod = $_POST["apellidos_cli"];

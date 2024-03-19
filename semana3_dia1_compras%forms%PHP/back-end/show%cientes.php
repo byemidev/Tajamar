@@ -1,11 +1,7 @@
 <?php
-    $serverName ="localhost";
-    $user ="root";
-    $pass ="";
-    $database ="compras";
-
-    $conn = mysqli_connect($serverName, $user, $pass, $database);
-
+    require_once('getConn.php')
+    $conn = getConn();
+    
     if(!$conn){
         die("fallo de conexion" . mysqli_connect_error());
     }
