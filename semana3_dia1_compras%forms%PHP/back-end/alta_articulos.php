@@ -1,6 +1,6 @@
 <?php
     //necesito getConn.php
-    require_once('getConn.php');
+    require_once('gestorDB.php');
     $conn = getConn();//obtengo la conexion 
     
     //reocojo los datos del formulario
@@ -11,13 +11,9 @@
 
     $sql = "INSERT INTO articulos (nombre_art, codigo_art, descripcion_art, precio) 
             VALUES ('{$nombre}', '{$cod}', '{$des}', '{$price}')";
-
-    if(mysqli_query($conn, $sql)){
-        echo '<div style="width=100%; height="auto"; background-color:green; > Todo correcto <a href="../"> volver a menu</a>
-             </div>';
-    } else {
-        echo "error -->>" . mysqli_error($conn);
-    }
-
+    
+    require_once('gestorDB.php');
+    insert($conn, $sql);
+    
     $conn->close();
 ?>

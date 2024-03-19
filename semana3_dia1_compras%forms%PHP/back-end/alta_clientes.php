@@ -1,21 +1,19 @@
 <?php
+    //necesito getConn.php
+    require_once('gestorDB.php');
+    $conn = getConn();//obtengo la conexion 
     
-    require_once('getConn.php');
-    $conn = getConn();
-
+    //reocojo los datos del formulario
     $nombre = $_POST["nombre_cli"];
-    $cod = $_POST["apellidos_cli"];
-    $des = $_POST["direccion_cli"];
-    $price = $_POST["telefono_cli"];
+    $apell = $_POST["apellido_cli"];
+    $dir = $_POST["direccion_cli"];
+    $tel = $_POST["telefono_cli"];
 
-    $sql = "INSERT INTO clientes (nombre_cli, apellidos_cli, direccion_cli, telefono_cli) 
-            VALUES ('{$nombre}', '{$cod}', '{$des}', '{$price}')";
-
-    if(mysqli_query($conn, $sql)){
-        echo "inserted";
-    } else {
-        echo "error -->>" . mysqli_error($conn);
-    }
-
+    $sql = "INSERT INTO articulos (nombre_cli, apellido_cli, direccion_cli, telefono_cli) 
+            VALUES ('{$nombre}', '{$apell}', '{$dir}', '{$tel}')";
+    
+    require_once('gestorDB.php');
+    insert($conn, $sql);
+    
     $conn->close();
 ?>

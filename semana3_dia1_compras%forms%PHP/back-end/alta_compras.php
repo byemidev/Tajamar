@@ -4,11 +4,7 @@
     $pass ="";
     $database ="compras";
 
-    $conn = mysqli_connect($serverName, $user, $pass, $database);
-
-    if(!$conn){
-        die("fallo de conexion" . mysqli_connect_error());
-    }
+    
 
     $nombre = $_POST["nombre_art"];
     $cod = $_POST["cantidad_art"];
