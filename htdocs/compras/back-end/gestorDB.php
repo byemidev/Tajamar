@@ -21,4 +21,22 @@
             echo "error -->>" . mysqli_error($conn);
         }
     }
+
+
+    function showAllArticulos($conn){
+        $sql = "SELECT * FROM ARTICULOS";
+        if($result = mysqli_query($conn, $sql)){
+            while($row = $result->fetch_assoc()){
+                //recoger los calores de $row es un array responde a clave_column y te da l valor
+            }
+        }
+    }
+    function showAllClientes(){
+        $sql = "SELECT * FROM CLIENTES";
+        
+    }
+    function showAllCompras(){
+        $sql = "SELECT * FROM COMPRAS";
+        
+    }
 ?>
