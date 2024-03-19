@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Document</title>
+</head>
+<body ids="grid">
+    <div style="font-family: monospace; font-size: 25px;">
+        Mostrar informacion 
+    </div>
+
+    <div id="section">
+        <form action="showinfo.php" method="post">
+            <select name="show_selection" id="selection">
+                <option value="articulos" name="articulos"> Articulos </option>
+                <option value="clientes" name="clientes"> Clientes </option>
+                <option value="compras" name="compras"> Compras </option>
+            </select>
+            <input type="submit" value="SHOW" style ="width: 80%; margin-top:3.5rem; background-color: #06b472;">
+        </form>
+    </div>
+    
+</body>
+</html>
