@@ -6,13 +6,16 @@
     $selection = $_POST["selection"];
         switch($selection){
             case $option="1": 
-                showAll($conn, $option);
+                echo "1 case";
+                showAllArticulos($conn);
                 break;
             case $option="2":
-                showAll($conn, $option);
+                echo "2 case";
+                showAllClientes($conn);
                 break;
             case $option="3":
-                showAll($conn, $option);
+                echo "3 case";
+                showAllCompras($conn);
                 break;
             default: 
                 echo "default case";

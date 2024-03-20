@@ -27,6 +27,14 @@ CREATE TABLE COMPRAS (
     cantidad varchar(100),
     fechacompra varchar(50),
     CONSTRAINT COMPRAS_PK PRIMARY KEY (id_compra), 
-    CONSTRAINT CLIENTES_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente),
+    CONSTRAINT CLIENTES_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente) ON DELETE CASCADE, //resolver el on delete cascade
     CONSTRAINT ARTICULOS_FK FOREIGN KEY (id_articulo) REFERENCES ARTICULOS(id_articulo)
+);
+
+CREATE TABLE USUARIOS (
+    nombre_usuario varchar(50),
+    id_cliente varchar(50),
+    pass varchar(15), 
+    CONSTRAINT USUARIOS_PK PRIMARY KEY (nombre_usuario, id_cliente), 
+    CONSTRAINT USUARIOS_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente) 
 );

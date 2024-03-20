@@ -1,23 +1,17 @@
 <?php
-    $serverName ="localhost";
-    $user ="root";
-    $pass ="";
-    $database ="compras";
-
     
+    include_once('gestorDB.php');
+    $conn = getConn();
 
-    $nombre = $_POST["nombre_art"];
-    $cod = $_POST["cantidad_art"];
-    $des = $_POST["fechacompra_art"];
+    $idCli = $_POST["idCli"];
+    $idArt = $_POST["idArt"];
+    $uds = $_POST["uds"];
+    $date = $_POST["date"];
 
-    $sql = "INSERT INTO articulos (nombre_art, cantidad_art, fechacompra_art) 
-            VALUES ('{$nombre}', '{$cod}', '{$des}', '{$price}')";
+    $sql = "INSERT INTO COMPRAS (id_cliente, id_articulo, cantidad, fechacompra) 
+            VALUES ('{$idCli}', '{$idArt}', '{$uds}', '{$date}')";
 
-    if(mysqli_query($conn, $sql)){
-        echo "inserted"
-    } else {
-        echo "error -->>" . mysqli_error($conn);
-    }
-
+    require_once('gestorDB.php');
+    insert($conn, $sql);
     $conn->close();
 ?>

@@ -1,4 +1,5 @@
 <?php
+    //obtiene la conexion OK 
     function getConn(){
         $serverName ="localhost";
         $user ="root";
@@ -12,7 +13,7 @@
         }
         return $conn;
     }
-
+    //inserta un registro OK 
     function insert($conn, $sql){
         if(mysqli_query($conn, $sql)){
             echo '<div style="width=100%; height="auto"; background-color:green; > INSERCCION CORRECTA: </br><a href="../"> volver a menu</a>
@@ -22,21 +23,63 @@
         }
     }
 
-
-    function showAllArticulos($conn){
+    //muestra todos los articulos OK 
+    function showAllArticulos($conn) {
         $sql = "SELECT * FROM ARTICULOS";
-        if($result = mysqli_query($conn, $sql)){
-            while($row = $result->fetch_assoc()){
-                //recoger los calores de $row es un array responde a clave_column y te da l valor
+        if ($result = mysqli_query($conn, $sql)) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<ul>\n<li>" . $row["nombre_art"] . " || " . $row["codigo_art"] . " || " . $row["descripcion_art"] . " || " . $row["precio"] . "</li></ul>\n";
             }
         }
     }
-    function showAllClientes(){
+    //muestra todos los clientes OK 
+    function showAllClientes($conn){
         $sql = "SELECT * FROM CLIENTES";
-        
+        if ($result = mysqli_query($conn, $sql)) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<ul>\n<li>" . $row["nombre_cli"] . " || " . $row["apellidos_cli"] . " || " . $row["direccion_cli"] . " || " . $row["telefono_cli"] . "</li></ul>\n";
+            }
+        }
     }
-    function showAllCompras(){
+    //muestra todas las compras OK
+    function showAllCompras($conn){
         $sql = "SELECT * FROM COMPRAS";
-        
+        if ($result = mysqli_query($conn, $sql)) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<ul>\n<li>" . $row["id_cliente"] . " || " . $row["id_articulo"] . " || " . $row["cantidad"] . " || " . $row["fechacompra"] . "</li></ul>\n";
+            }
+        }
     }
-?>
+    //muestra todos los articulos por ID 
+    function showAllArticulosByID($conn, $id) {
+        $sql = "SELECT * FROM ARTICULOS WHERE id_articulo = '{$id}'";
+        if ($result = mysqli_query($conn, $sql)) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<ul>\n<li>" . $row["nombre_art"] . " || " . $row["codigo_art"] . " || " . $row["descripcion_art"] . " || " . $row["precio"] . "</li></ul>\n";
+            }
+        }
+    }
+    //muestra todos los clientes por ID 
+    function showAllClientesByID($conn, $id){
+        $sql = "SELECT * FROM CLIENTES WHERE id_cliente = '{$id}'";
+        if ($result = mysqli_query($conn, $sql)) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<ul>\n<li>" . $row["nombre_cli"] . " || " . $row["apellidos_cli"] . " || " . $row["direccion_cli"] . " || " . $row["telefono_cli"] . "</li></ul>\n";
+            }
+        }
+    }
+    //muestra todas las compras por id_cliente
+    function showAllComprasByID($conn, $id){
+        $sql = "SELECT * FROM COMPRAS WHERE id_cliente = '{$id}'";
+        if ($result = mysqli_query($conn, $sql)) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<ul>\n<li>" . $row["id_cliente"] . " || " . $row["id_articulo"] . " || " . $row["cantidad"] . " || " . $row["fechacomnpra"] . "</li></ul>\n";
+            }
+        }
+    }
+
+    function deleteClienteByID($conn, $id){
+        $sql = "DELETE FROM CLIENTES WHERE id_cliente = '{$id}';";
+    }
+
+?> 
