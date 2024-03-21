@@ -24,17 +24,46 @@
 
     <div id="nav">
         <!-- NAVIGATOR : search prduct by name , checkout -->
-        <ul>
-            <li>Buscar: <input type="text"></li>
-            <li class="button_checkout">Checkout</li>
+        <?php
+            function filterTableData($input) {
+                require_once('../../back-end/gestorDB.php');
+                $conn = getConn();
+                $sql = "SELECT * FROM ARTICULOS WHERE nombre_art LIKE '$input%'";
+                $result = mysqli_query($conn, $sql);
+                return $result;
+            }
+        ?>
+        <ul> <!--si pulso deberia filtrar llamando a la funcion de arriba -->
+            <li><input type="text"></li>
+            <li action="" class="button_checkout">Buscar</li>
         </ul>
     </div>
     
     
-    <div id="products">
+    <div id="products" class="gallery">
         <!-- PRODUCTS AREA -->
         <?php
-            
+        include_once('../../back-end/gestorDB.php');
+        $conn = getConn();
+
+        // SQL query
+        $sql = "SELECT * FROM articulos";
+        
+
+        // Execute query
+        $result = mysqli_query($conn, $sql);
+
+        // Check for results
+        if (mysqli_num_rows($result) > 0) {
+            // Output data of each row
+            while($row = mysqli_fetch_assoc($result)) {
+                echo '<div class="item">' . "<img src='{$row['imgpath']}'></img>" . '<label>' . $row["nombre_art"] . "</label><p>Descripción:</br>" . $row["descripcion_art"]. '<span>'. $row["precio"] . '€</span><button id="add"></button></div>';
+            }
+        } else {
+            echo "No results found.";
+        }
+        // Close connection
+        $conn->close();
         ?>
     </div>
     
