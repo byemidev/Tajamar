@@ -59,10 +59,61 @@
   /* Products area */
   #products {
     grid-area: products;
-    background-color: #791616;
+    background-color: #888888;
+    color: white;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 2rem 10vh;
+  }
+  
+  .gallery .item {
+    max-width: 20dvw;
+    padding: 1rem;
+  }
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    margin: auto 20vh;
+  } 
+
+  .item label {
+    font-family: monospace;
+    font-size: 1.8rem;
+  }
+
+  .item p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: black;
+  }
+
+  .item span {
+    font-size: xx-large;
+  }
+
+  #add {
+    background-image: url('../img/add-icon.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-content: space-around;
+    height:1.5rem;
+    width: 1.5rem;
+  }
+  
+  label,p,span {
+    display: block;
+  }
+
+  label, img {
+    display: inline-block;
   }
 

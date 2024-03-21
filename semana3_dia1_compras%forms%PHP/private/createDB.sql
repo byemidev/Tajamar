@@ -1,6 +1,6 @@
-CREATE DATABASE compras; 
+CREATE DATABASE bdtutienda; 
 
-USE compras; 
+USE bdtutienda; 
 
 CREATE TABLE CLIENTES (
     id_cliente int(10) NOT NULL AUTO_INCREMENT, 

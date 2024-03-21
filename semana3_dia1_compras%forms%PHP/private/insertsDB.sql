@@ -1,20 +1,26 @@
-USE compras;
+USE bdtutienda;
 
 INSERT INTO ARTICULOS (nombre_art, descripcion_art, precio) 
-VALUES ('Lapiz 2H','lapiz 2H SM','0.99'),
-('Lapiz 1H','lapiz 1H SM','0.99'),
-('Cuaderno A4 anillas b/w','cuaderno anillas A4 black / white','3.20'),
-('Libro mat. 1ESO','libro matematicas 1ºESO ','16.75'),
-('Libro mat. 2ESO','libro matematicas 1ºESO ','18.75'),
-('Libro mat. 3ESO','libro matematicas 1ºESO ','21.75'),
-('Libro mat. 4ESO','libro matematicas 1ºESO ','30.75'),
-('Libro len. 1ESO','libro lenguage castellana 1ºESO ','14.75'),
-('Libro len. 2ESO','libro lenguage castellana 2ºESO ','16.75'),
-('Libro len. 3ESO','libro lenguage castellana 3ºESO ','18.75'),
-('Libro len. 4ESO','libro lenguage castellana 4ºESO ','20.75');
+VALUES 
+('Sneaker1', 'Comfortable running sneaker in size 42', 59.99),
+('Sneaker2', 'Stylish casual sneaker in size 38', 79.99),
+('Sneaker3', 'Lightweight training sneaker in size 44', 69.99),
+('Sneaker4', 'Durable hiking sneaker in size 40', 89.99),
+('Sneaker5', 'Versatile cross-training sneaker in size 41', 75.99),
+('Sneaker6', 'Breathable walking sneaker in size 39', 65.99),
+('Sneaker7', 'Water-resistant trail sneaker in size 43', 85.99),
+('Sneaker8', 'High-performance athletic sneaker in size 45', 95.99),
+('Sneaker9', 'Classic leather sneaker in size 40', 80.99),
+('Sneaker10', 'Slip-resistant work sneaker in size 42', 70.99),
+('Sneaker11', 'Trendy fashion sneaker in size 38', 90.99),
+('Sneaker12', 'Eco-friendly sustainable sneaker in size 41', 100.99),
+('Sneaker13', 'Orthopedic comfort sneaker in size 39', 77.99),
+('Sneaker14', 'Non-slip yoga sneaker in size 37', 67.99);   
 
-INSERT INTO CLIENTES (id_cliente, nombre_cli, apellidos_cli, direccion_cli,telefono_cli) 
-VALUES ('0','Emilio', 'Arevalo Zuñiga', 'Calle rio Segre, 2, 2b', '676543112');
+
+
+INSERT INTO CLIENTES (nombre_cli, apellidos_cli, direccion_cli,telefono_cli) 
+VALUES ('Emilio', 'Arevalo Zuñiga', 'Calle rio Segre, 2, 2b', '676543112');
 
 INSERT INTO CLIENTES (nombre_cli, apellidos_cli, direccion_cli, telefono_cli) 
 VALUES ('Sofia','Castaño Rodriguez','Calle rio odiel, 34, 1ºa','654222111'),
@@ -31,18 +37,24 @@ VALUES ('Sofia','Castaño Rodriguez','Calle rio odiel, 34, 1ºa','654222111'),
 
 
 INSERT INTO USUARIOS (id_cliente, user, pass) 
-VALUES ('0', 'emi94', '1234'),
-('1', 'sofiaCR', '1234'),
-('2', 'juanPG', '1234'),
-('3', 'anaML', '1234'),
-('4', 'carlosGF', '1234'),
-('5', 'mariaRS', '1234'),
-('6', 'pedroRG', '1234'),
-('7', 'isabelMR', '1234'),
-('8', 'javierTP', '1234'),
-('9', 'carmenGN', '1234'),
-('10', 'luisRM', '1234'),
-('11', 'teresaGM', '1234');
+VALUES ('1', 'emi94', '1234'),
+('2', 'sofiaCR', '1234'),
+('3', 'juanPG', '1234'),
+('4', 'anaML', '1234'),
+('5', 'carlosGF', '1234'),
+('6', 'mariaRS', '1234'),
+('7', 'pedroRG', '1234'),
+('8', 'isabelMR', '1234'),
+('9', 'javierTP', '1234'),
+('10', 'carmenGN', '1234'),
+('11', 'luisRM', '1234'),
+('12', 'teresaGM', '1234');
 
+UPDATE ARTICULOS
+SET codigo_art = CONCAT('COD', id_articulo);
 
+ALTER TABLE ARTICULOS
+ADD COLUMN imgpath varchar(1024);
 
+UPDATE TABLE ARTICULOS 
+SET imgpath = CONCAT('../img/',nombre_art, '.png');

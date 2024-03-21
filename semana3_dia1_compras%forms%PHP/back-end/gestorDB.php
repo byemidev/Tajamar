@@ -4,7 +4,7 @@
         $serverName ="localhost";
         $user ="root";
         $pass ="";
-        $database ="compras";
+        $database ="bdtutienda";
 
         $conn = mysqli_connect($serverName, $user, $pass, $database);
 
