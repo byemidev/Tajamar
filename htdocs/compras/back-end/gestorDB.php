@@ -82,4 +82,14 @@
         $sql = "DELETE FROM CLIENTES WHERE id_cliente = '{$id}';";
     }
 
+    /*home functions*/ 
+    //muestra todos los productos para home
+    function getAllProducts() {
+        $conn = getConn();
+        $sql = "SELECT * FROM ARTICULOS";
+        if ($result = mysqli_query($conn, $sql)) {
+            return $result->fetch_assoc(); 
+        }
+    }
+
 ?> 

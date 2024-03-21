@@ -22,11 +22,20 @@ CREATE TABLE ARTICULOS(
 
 CREATE TABLE COMPRAS (
     id_compra int(10) NOT NULL AUTO_INCREMENT,
-    id_cliente int(10) NOT NULL,
+    id_cliente int(10),
     id_articulo int(10) NOT NULL,
     cantidad varchar(100),
     fechacompra varchar(50),
     CONSTRAINT COMPRAS_PK PRIMARY KEY (id_compra), 
-    CONSTRAINT CLIENTES_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente),
-    CONSTRAINT ARTICULOS_FK FOREIGN KEY (id_articulo) REFERENCES ARTICULOS(id_articulo)
+    CONSTRAINT C_CLIENTES_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente) ON DELETE SET NULL, 
+    CONSTRAINT C_ARTICULOS_FK FOREIGN KEY (id_articulo) REFERENCES ARTICULOS(id_articulo)
+);
+
+CREATE TABLE USUARIOS (
+    id_usuario int(10) NOT NULL AUTO_INCREMENT,
+    id_cliente int(10) NOT NULL,
+    user varchar(50) NOT NULL,
+    pass varchar(50) NOT NULL,
+    CONSTRAINT USUARIOS_PK PRIMARY KEY (id_usuario),
+    CONSTRAINT USUARIOS_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente) ON DELETE CASCADE
 );
