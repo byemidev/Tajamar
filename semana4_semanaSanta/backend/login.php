@@ -3,11 +3,6 @@
 require_once('gestorDB.php');
 $conn = getConn();
 
-// Check for errors
-if ($conn->connect_error) {
-    die("Connection failed: " . $mysqli->connect_error);
-}
-
 // Step 2: Write a SQL query to retrieve the data from the database table
 $sql = "SELECT * FROM USUARIOS WHERE user = ?";
 
