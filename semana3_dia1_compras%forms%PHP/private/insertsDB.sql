@@ -56,5 +56,5 @@ SET codigo_art = CONCAT('COD', id_articulo);
 ALTER TABLE ARTICULOS
 ADD COLUMN imgpath varchar(1024);
 
-UPDATE TABLE ARTICULOS 
+UPDATE ARTICULOS 
 SET imgpath = CONCAT('../img/',nombre_art, '.png');
