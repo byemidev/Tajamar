@@ -10,6 +10,7 @@ body {
 
 body input[type=text] {
     color: #201f47;
+    font-size: 25px;
 }
 
 .calculadora {
