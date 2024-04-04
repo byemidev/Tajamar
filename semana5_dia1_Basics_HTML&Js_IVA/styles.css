@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #201f47;
+    color: white;
+}
+
+body input[type=text] {
+    color: #201f47;
+    font-size: 25px;
+}

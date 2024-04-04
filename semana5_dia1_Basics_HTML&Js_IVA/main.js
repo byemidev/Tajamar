@@ -35,23 +35,3 @@ function displayValue(p){
     const nameDisplay = document.getElementById("value");
     nameDisplay.textContent = Number((p).toFixed(2));
 }
-
-//calculadora
-const display = document.getElementById("display");
-
-function appendChildToDisplay(num){
-    display.value += num;
-}
-
-function clearDisplay() {
-    display.value = "";
-}
-
-function calculate(){
-    try{
-        display.value = Number((eval(display.value).toFixed(6)));// eval es una funcion de js para evaluar expresiones regulares dentro de una cadena y operar
-    }catch {
-        console.log("error");
-    }
-
-}
