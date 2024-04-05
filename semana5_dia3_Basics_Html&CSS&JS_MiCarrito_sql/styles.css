@@ -29,7 +29,6 @@ body{
 
 #productos div{
     margin: 1rem;
-    
 }
 
 button {
@@ -40,6 +39,12 @@ button {
 }
 
 
+
+#productos button:hover {
+    background-color: black;
+    color: white;
+}
+
 #carrito {
     width: 30%;
     height: auto;
@@ -48,11 +53,11 @@ button {
     justify-content: space-between;
 }
 
-#carrito #listaCarrito {
+#carrito #display {
     display: flex;
-    flex-direction: row;
-    justify-content: start;
-    gap: 2px;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 1px;
 }
 
 button[id="del"] {
@@ -62,6 +67,7 @@ button[id="del"] {
 button[id="ok"] {
     background-color: #45db59;
     color: #c25151;
+    align-self: flex-end;
 }
 
 button[id="del"] , button[id="ok"] {

@@ -15,7 +15,7 @@
         //recuperar datos de products
         if($result = mysqli_query($conn, $sql)){
             while($row = $result->fetch_assoc()){
-                echo '<div class="producto"><label for="producto">'. $row["nomprod"] . '<button onclick="addProductToList(' .$row["idprod"] . ',' . $row["precio"] .')">Add for '. $row["precio"] .'</button></label></div>';
+                echo '<div class="producto"><label for="producto">'. $row["nomprod"] . '<button onclick="addProductToList(' . $row["idprod"] . ",'" . $row["nomprod"] . "'," . $row["precio"] .')">Add for '. $row["precio"] .'</button></label></div>';
             }
         }
         $conn->close();
@@ -24,8 +24,7 @@
     <div id="carrito">  
         <div id="display"></div>
         <label id="total"></label>
-        <button id="del" onclick="quickOff()" style="visibility: hidden;">Delete</button>
-        <button id="ok" onclick="displayList()">Pagar</button>
+        <button id="ok" onclick="displayTotalSum()">Pagar</button>
     </div>
     <script src="main.js"></script>
 </body>
