@@ -3,7 +3,6 @@ let listaproductos = [];
 
 const lblTotal = document.getElementById("total");
 let precios = [];
-let sum = 0.0;
 
 class Producto {
     id;
@@ -27,6 +26,7 @@ function addProductToList(id, nombre, precio) {
     console.log(`Added product: ${producto.id} with price: ${producto.precio}`);
     
     displayList();
+    sumTotal();
 }
 
 let clicked = false; 
@@ -53,15 +53,12 @@ function displayList() {
     display.innerHTML = '';
     
     listaproductos.forEach(producto => {
-        
-        sumTotal(producto);
-        
         const lbl = document.createElement('label');
         lbl.textContent = producto.displayText;
         
         const delBtn = document.createElement('button'); 
-        delBtn.ariaSetSize = "4";
-        delBtn.textContent = "Eliminar";
+        delBtn.ariaSetSize = "1";
+        delBtn.textContent = "delete";
         //poner propiedades id 
         //onclick , quickoffproducfromlist(del${id})    
         lbl.appendChild(delBtn);
@@ -69,15 +66,14 @@ function displayList() {
     });
 }
 
-function sumTotal(producto){
-    let precio = producto.precio; 
-    let id = producto.id; 
-    console.log(`Sumando precio ${precio} para id ${id}`);
-    
-    precios.push(precio);
-    sum += precio;
+function sumTotal(){
 
-    lblTotal.textContent = `Total: ${Number(sum.toFixed(2))}`;
+    let sum = 0.0;
+    sum = precios.reduce((total, numero) => {
+        return total + numero;
+    }, 0);
+
+    lblTotal.textContent = `Total: ${sum}`;
 }
 
 

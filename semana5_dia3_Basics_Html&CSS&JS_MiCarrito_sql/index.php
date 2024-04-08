@@ -23,9 +23,14 @@
     </div>
     <div id="carrito">  
         <div id="display"></div>
+    </div>
+    <div id="resume">
         <label id="total"></label>
+    </div>
+    <div id="end">
         <button id="ok" onclick="script:alert('compra realizada')">Pagar</button>
     </div>
     <script src="main.js"></script>
+
 </body>
 </html>

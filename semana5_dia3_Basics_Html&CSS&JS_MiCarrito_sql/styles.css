@@ -32,13 +32,11 @@ body{
 }
 
 button {
-    width: 120px;
-    height: 65px;
+    width: 75px;
+    height: 35px;
     background-color: whitesmoke;
     margin: 10px;
 }
-
-
 
 #productos button:hover {
     background-color: black;
