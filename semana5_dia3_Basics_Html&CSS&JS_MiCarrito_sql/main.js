@@ -1,6 +1,9 @@
 const display = document.getElementById("display");
-
 let listaproductos = [];
+
+const lblTotal = document.getElementById("total");
+let precios = [];
+let sum = 0.0;
 
 class Producto {
     id;
@@ -24,43 +27,57 @@ function addProductToList(id, nombre, precio) {
     console.log(`Added product: ${producto.id} with price: ${producto.precio}`);
     
     displayList();
-    sumTotal(producto.precio);
+}
+
+let clicked = false; 
+function quickOffProductFromList(id){
+    //si el boton de la etiqueta del display para eliminar esta pulsado
+    const delBtn = document.getElementById("delBtn");
+    delBtn.addEventListener("click", () =>{
+        //todo
+        let clicked = true; 
+        if(clicked){
+            listaproductos.forEach(producto => {
+                if(producto.id == id){
+                    console.log(`Eliminando ${id}`)
+                    display.removeChild(document.getElementById(`del${id}`));
+                }
+            });
+        }
+    });
+    
 }
 
 function displayList() {
     console.log("en display list");
     display.innerHTML = '';
-
+    
     listaproductos.forEach(producto => {
+        
+        sumTotal(producto);
+        
         const lbl = document.createElement('label');
-
         lbl.textContent = producto.displayText;
-
+        
+        const delBtn = document.createElement('button'); 
+        delBtn.ariaSetSize = "4";
+        delBtn.textContent = "Eliminar";
+        //poner propiedades id 
+        //onclick , quickoffproducfromlist(del${id})    
+        lbl.appendChild(delBtn);
         display.appendChild(lbl);
     });
 }
 
-
-// no esta funcionando 
-let precios = [];
-var sum = 0.0;
-
-function sumTotal(precio){
+function sumTotal(producto){
+    let precio = producto.precio; 
+    let id = producto.id; 
+    console.log(`Sumando precio ${precio} para id ${id}`);
+    
     precios.push(precio);
-    console.log(precio);
-    precios.forEach(precio => {
-        sum += parseFloat(precio); 
-    });
-    return sum;
-}
+    sum += precio;
 
-let lblTotal = document.getElementById("total");
-function displayTotalSum(){
-    console.log(lblTotal.nodeName);
-}
-
-function quickOffFromProducsList(name){
-    //find by name and delete 
+    lblTotal.textContent = `Total: ${Number(sum.toFixed(2))}`;
 }
 
 

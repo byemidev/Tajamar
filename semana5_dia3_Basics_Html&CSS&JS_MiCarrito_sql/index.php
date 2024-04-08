@@ -24,7 +24,7 @@
     <div id="carrito">  
         <div id="display"></div>
         <label id="total"></label>
-        <button id="ok" onclick="displayTotalSum()">Pagar</button>
+        <button id="ok" onclick="script:alert('compra realizada')">Pagar</button>
     </div>
     <script src="main.js"></script>
 </body>
