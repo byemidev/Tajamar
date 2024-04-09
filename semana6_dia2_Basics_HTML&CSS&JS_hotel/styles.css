@@ -26,5 +26,6 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 1.2em;
-    margin: auto 3rem;
+    margin: auto 0;
 }
+
