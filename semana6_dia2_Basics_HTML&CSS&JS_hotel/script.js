@@ -27,7 +27,7 @@ btnClient.addEventListener("click" , () => {
 });
 
 formNewClient.addEventListener("submit",(event) => {
-    event.preventDefault();
+  event.preventDefault();
 });
 
 

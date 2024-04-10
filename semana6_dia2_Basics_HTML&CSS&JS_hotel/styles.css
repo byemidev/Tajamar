@@ -1,13 +1,18 @@
+/*---all-------------------------------*/
 * {
     box-sizing: border-box;
 }
 
 body {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
     padding: 2rem;
     background-color: aliceblue;
 }
 
+/*---index.html => HOME----------------*/
 .homebtn {
     font-family: monospace;
 }
@@ -29,3 +34,31 @@ body {
     margin: auto 0;
 }
 
+/*---reserva.html => reservas ---------------------*/
+
+/*-----------------reservation-form----------------*/
+#reservation-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-around;
+}
+
+#reservation-form button {
+    width: 15vw;
+    margin: auto;
+}
+/*-----------------validations---------------------*/
+.field {
+    display: inline-block;
+    font-family: monospace;
+}
+
+.field:invalid {
+    border: 1px solid red;
+}
+
+.field:valid {
+    border: 2px solid green;
+}
