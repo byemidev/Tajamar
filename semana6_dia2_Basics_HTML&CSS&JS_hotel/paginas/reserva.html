@@ -16,13 +16,36 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    
-    
-
+<form id="reservation-form">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required pattern="[a-zA-Z]{1,90}"><br>
+  <label for="surname">Surname:</label><br>
+  <input type="text" id="surname" name="surname" required pattern="[a-zA-Z]{1,90}"><br>
+  <label for="phone">Phone:</label><br>
+  <input type="tel" id="phone" name="phone" required pattern="[0-9]{9}"><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  <label for="checkinDate">Check-in date:</label><br>
+  <input type="date" id="check-in" name="check-in" required><br>
+  <label for="checkoutDate">Check-out date:</label><br>
+  <input type="date" id="check-out" name="check-out" required><br>
+  <label for="guestsNum">Number of guests:</label><br>
+  <input type="number" id="guestNum" name="number-of-guests" min="1" max="3" required><br>
+  <label for="age0">My Age:</label><br>
+  <input type="number" id="age0" name="age0" min="0" max="120" required><br>
+  <label for="room"></label><br>
+  <select name="rooms" id="room">
+    <option value="">--</option>
+    <option value="individual">Individual</option>
+    <option value="double">Double</option>
+    <option value="Deluxe double">Deluxe Double</option>
+  </select>
+  <input type="submit" value="Submit">
+<p>El precio de la habitacion es: <span id="total"></span></p>    
+</form>
     <!-- Js -->
     <script src="validation.js"></script>
     <!-- php como se trabaja con los dos archivos de forma concurrente-->
-    
 </body>
 </html>
 
