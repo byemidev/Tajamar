@@ -4,12 +4,14 @@ const form = document.querySelector("form");
 form.addEventListener("submit", (event) => {
   event.preventDefault();
 
+  //prueba
   const name = document.getElementById("name");
 
   if(!checkRegexTxt(name)){
     name.setCustomValidity("Solo letras");
   }
   //todo
+  //solo validar los datos de reserva , los datos personales los cargo desde la base de datos
 });
 
 
