@@ -1,33 +1,26 @@
+//new client
+const btnCreateAccount = document.getElementById("btn-create-account");
+const formCreateAccount = document.getElementById("form-create-account");
+//client
+const btnClient = document.getElementById("btn-client");
+const formLogin = document.getElementById("form-login");
+//botones dentro de forms
+const btnLogin = document.getElementById("btn-login");
+const btnNew = document.getElementById("btn-new");
+btnClient.addEventListener("click", () => {
+  formLogin.style.visibility = "visible";
+  btnLogin.style.visibility = "visible";
+  btnLogin.setAttribute("type", "submit");
+  formCreateAccount.style.visibility = "hidden";
+});
 
-//Mostrar form para cliente nuevo cuando btnNewClient is cliked
-const btnNewClient = document.getElementById("btnNewClient");
-const formNewClient = document.getElementById("form__display__newclient");
-
-btnNewClient.addEventListener("click", () => {
-  if (formNewClient.style.visibility === "hidden") {
-    formNewClient.style.visibility = "visible";
-  } else {
-    formNewClient.style.visibility = "hidden";
+// Mostrar form para cliente nuevo cuando btnNewClient is clicked
+btnCreateAccount.addEventListener("click", () => {
+  if (formCreateAccount.style.visibility === "hidden") {
+    formCreateAccount.style.visibility = "visible";
+    formLogin.style.visibility = "visible";
+    btnLogin.style.visibility = "hidden";
+    btnLogin.removeAttribute("type");
+    btnNew.setAttribute("type", "submit");
   }
 });
-
-//clase para instanciar objetos de mis clientes
-class cliente {
-   username;
-    constructor(username){
-        this.username = username;
-    }
-}
-
-//formNewCLient y mostrar el login
-const btnClient = document.getElementById("btnClient");
-btnClient.addEventListener("click" , () => {
-    formNewClient.style.visibility = "hidden";
-    location.href = "./paginas/reserva.html";
-});
-
-formNewClient.addEventListener("submit",(event) => {
-  event.preventDefault();
-});
-
-
