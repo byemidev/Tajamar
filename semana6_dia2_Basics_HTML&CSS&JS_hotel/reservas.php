@@ -112,14 +112,14 @@
                 <option value="Deluxe double">Deluxe Double</option>
               </select>
             </div>
-            <button type="submit" class="btn btn-primary">Pay</button>
+            <button type="submit" class="btn btn-primary">Go pay</button>
             <p style="visibility: hidden" class="form-text">
               The room price is: <span id="total"></span>
             </p>
           </form>
         </div>
         <!-- Js -->
-        <script src="validation.js"></script>
+        <script src="script/validation.js"></script>
         <!-- php como se trabaja con los dos archivos de forma concurrente-->
       </body>
     </html>

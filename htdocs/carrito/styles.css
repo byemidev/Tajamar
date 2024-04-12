@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    background-color: #423858;
+}
+
+body{
+    color: white;
+    font-size: large;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.vista{
+    width: 90%;
+    height: auto;
+    margin: 10% auto;
+    padding: 1.2rem;
+    background-color: antiquewhite;
+    align-items: start;
+    padding-right: 45px;
+}
+
+#productos {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#productos div{
+    margin: 1rem;
+}
+
+button {
+    width: 120px;
+    height: 65px;
+    background-color: whitesmoke;
+    margin: 10px;
+}
+
+
+
+#productos button:hover {
+    background-color: black;
+    color: white;
+}
+
+#carrito {
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#carrito #display {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 1px;
+}
+
+button[id="del"] {
+    background-color: #d43939;
+    color: white;
+}
+button[id="ok"] {
+    background-color: #45db59;
+    color: #c25151;
+    align-self: flex-end;
+}
+
+button[id="del"] , button[id="ok"] {
+    display: inline-block;
+    align-self: end;
+}
+

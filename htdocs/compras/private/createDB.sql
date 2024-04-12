@@ -1,41 +1,43 @@
-CREATE DATABASE bdtutienda; 
+CREATE DATABASE bdbiblioteca; 
 
-USE bdtutienda; 
+USE bdbiblioteca; 
 
 CREATE TABLE CLIENTES (
-    id_cliente int(10) NOT NULL AUTO_INCREMENT, 
-    nombre_cli varchar(50) NOT NULL UNIQUE, 
-    apellidos_cli varchar(50), 
-    direccion_cli varchar(100),
-    telefono_cli varchar(15), 
-    CONSTRAINT CLIENTES_PK PRIMARY KEY (id_cliente)
+    idcliente int(10) NOT NULL AUTO_INCREMENT, 
+    nombrecliente varchar(50) NOT NULL UNIQUE, 
+    apellidoscliente varchar(50), 
+    dircliente varchar(100),
+    telcliente varchar(15), 
+    CONSTRAINT CLIENTES_PK PRIMARY KEY (idcliente)
 );
 
-CREATE TABLE ARTICULOS(
-    id_articulo int(10) NOT NULL AUTO_INCREMENT, 
-    nombre_art varchar(50) NOT NULL UNIQUE,
-    codigo_art varchar(50),
-    descripcion_art varchar(50),
-    precio float(5,2),
-    CONSTRAINT ARTICULOS_PK PRIMARY KEY (id_articulo)
+CREATE TABLE LIBROS (
+    idlibro int(10) NOT NULL AUTO_INCREMENT, 
+    nombrelibro varchar(50) NOT NULL UNIQUE,
+    autor varchar(150) NOT NULL UNIQUE,
+    codlibro varchar(50),
+    apendice varchar(100),
+    disponible boolean NOT NULL DEFAULT 1,
+    CONSTRAINT ARTICULOS_PK PRIMARY KEY (idlibro)
 );
 
-CREATE TABLE COMPRAS (
-    id_compra int(10) NOT NULL AUTO_INCREMENT,
-    id_cliente int(10),
-    id_articulo int(10) NOT NULL,
-    cantidad varchar(100),
-    fechacompra varchar(50),
-    CONSTRAINT COMPRAS_PK PRIMARY KEY (id_compra), 
-    CONSTRAINT C_CLIENTES_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente) ON DELETE SET NULL, 
-    CONSTRAINT C_ARTICULOS_FK FOREIGN KEY (id_articulo) REFERENCES ARTICULOS(id_articulo)
+CREATE TABLE PRESTAMOS (
+    idprestamo int(10) NOT NULL AUTO_INCREMENT,
+    idcliente int(10)NOT NULL,
+    idlibro int(10) NOT NULL,
+    fecha_prestamo varchar(20) NOT NULL,
+    fecha_devolucion varchar(20),
+    disponible boolean,
+    CONSTRAINT PRESTAMOS_PK PRIMARY KEY (idprestamo), 
+    CONSTRAINT P_CLIENTES_FK FOREIGN KEY (idcliente) REFERENCES CLIENTES(idcliente) ON DELETE SET NULL, 
+    CONSTRAINT P_LIBROS_FK FOREIGN KEY (idlibro) REFERENCES LIBROS(idlibro)
 );
 
 CREATE TABLE USUARIOS (
-    id_usuario int(10) NOT NULL AUTO_INCREMENT,
-    id_cliente int(10) NOT NULL,
+    idusuario int(10) NOT NULL AUTO_INCREMENT,
+    idcliente int(10) NOT NULL,
     user varchar(50) NOT NULL,
     pass varchar(50) NOT NULL,
-    CONSTRAINT USUARIOS_PK PRIMARY KEY (id_usuario),
-    CONSTRAINT USUARIOS_FK FOREIGN KEY (id_cliente) REFERENCES CLIENTES(id_cliente) ON DELETE CASCADE
+    CONSTRAINT USUARIOS_PK PRIMARY KEY (idusuario),
+    CONSTRAINT USUARIOS_FK FOREIGN KEY (idcliente) REFERENCES CLIENTES(idcliente) ON DELETE CASCADE
 );
