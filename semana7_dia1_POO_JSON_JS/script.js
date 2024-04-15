@@ -51,7 +51,7 @@ const timeoutId = setTimeout(() => controller.abort(), 5000);
 button3.addEventListener("click", async()=>{
     try{
          const response = await fetch(url, {signal: controller.signal});
-         const json = response.json();
+         const json = await response.json();
          console.log(`completed:  ${json}`);
     }catch(error){
         console.error(`error in async response ${error.message}`);
