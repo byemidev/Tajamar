@@ -110,9 +110,7 @@
             <form
               id="form-login"
               class="row g-3 needs-validation"
-              style="visibility: hidden"
               method="post"
-              novalidate
             >
               <div class="col-md-6">
                 <label for="validationCustomUsername" class="form-label"

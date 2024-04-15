@@ -1,4 +1,4 @@
-/*---all-------------------------------*/
+/***************all*****************/
 * {
     box-sizing: border-box;
 }
@@ -12,7 +12,7 @@ body {
     background-color: aliceblue;
 }
 
-/*---index.html => HOME----------------*/
+/**************Home****************/
 .homebtn {
     font-family: monospace;
 }

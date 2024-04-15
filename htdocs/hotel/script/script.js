@@ -6,7 +6,8 @@ const form = document.querySelector("form");
 const btnSubmit = document.getElementById("submit");
 
 //revisar no funciona 
-const toRegistry = document.getElementsById("toResgistry");
+
+const toRegistry = document.querySelector("#toResgistry");
 
 btnClient.addEventListener("click", () => {
   toRegistry.style.visibility = "hidden";
@@ -18,3 +19,9 @@ btnCreateAccount.addEventListener("click", () => {
     toRegistry.style.visibility = "visible";
   }
 });
+
+
+function validado () {
+  //TODO: i want to validate fields unsing the change into addEventListener property to know if the field is changed 
+  return 0;
+}
