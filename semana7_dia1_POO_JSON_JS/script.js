@@ -12,7 +12,7 @@ button.addEventListener("click", (event) => {
         
         console.log(persona);
         
-        const obj = JSON.stringify(persona);
+        const obj = JSON.stringify(persona); // JSON.stringfy() covert JavaScript objects to JSON string 
         
         localStorage.setItem("personas.json", obj);
         
@@ -35,24 +35,24 @@ button2.addEventListener("click",(event)=>{
 }); 
 
 
-//prueba 3: fetching de datos con async function => https://akabab.github.io/superhero-api/api/#alljson 
+//prueba 3: fetching de datos con async function =>     
 
 
-//abort controller to manage async response 
 const button3 = document.getElementById("get");
 
 
+//abort controller to manage async response 
 const controller  = new AbortController();
 const signal = controller.signal;
-const url = "https://akabab.github.io/superhero-api/api/all.json";
+const url = "https://cdn.jsdelivr.net/gh/akabab/superhero-api@0.3.0/api/all.json";
 
 const timeoutId = setTimeout(() => controller.abort(), 5000);
 
 button3.addEventListener("click", async()=>{
     try{
          const response = await fetch(url, {signal: controller.signal});
-         const json = await response.json();
-         console.log(`completed:  ${json}`);
+         const dataHero = await response.json();
+         console.log(`Response:  ${JSON.stringify(dataHero,null, 2)}`); 
     }catch(error){
         console.error(`error in async response ${error.message}`);
     }
