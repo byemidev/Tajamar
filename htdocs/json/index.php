@@ -1,22 +1,18 @@
 <?php
+    //get data from movies.php
     include_once('movies.php');
-    $data = getData();
+    $data = fetchData();
 
     //input 
-    // Check if the form was submitted
+    // Check if the form was submitted & and what form had been submited
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-        // Check which form was submitted
-        if (isset($_POST['submitSipnosis'])) {
-            $inFindMovieByStoryLine = $_POST['findMovieBySipnosis'];
-            $inFindMovieByStoryLine = htmlspecialchars(trim($inFindMovieBySipnosis));
-            //TODO: find in the data about sipnosis trying to match the input and the data.
-            //TODO: Show the output in a new window
-            //TODO this i can to make a function with out this logic , and call to catch the return values
-            //TODO: check the result 
-            $result = getfilteredData($data, $inFindMovieBySipnosis);
-            echo $result;
+        if (isset($_POST['submitByStoryLine'])) {
+            $inFindMovieByStoryLine = $_POST['findMovieByStoryLine'];
+            $inFindMovieByStoryLine = htmlspecialchars(trim($inFindMovieByStoryLine));
+            include_once('movies.php');
+            $result = getfilteredData($data, $inFindMovieByStoryLine);
         }
-        elseif (isset($_POST['submitActor'])) {
+        elseif (isset($_POST['submitByActors'])) {
             $inFindMovieByActor = $_POST['findMovieByActor'];
             $inFindMovieByActor = htmlspecialchars(trim($inFindMovieByActor));
             //TODO: find in the data about actor trying to match the input and the data.
@@ -35,37 +31,38 @@
 </head>
 <body>
     <form action="" method="post">
-        <label for="findMovieBySipnosis">Buscar por sipnosis: <input id="findMovieBySipnosis" type="text" placeholder="aqui nombre por sipnosis" name="findMovieBySipnosis"> <button type="submit">Buscar</button></label>
+        <label for="findMovieByStoryLine">Buscar por sipnosis: <input id="findMovieByStoryLine" type="text" placeholder="aqui nombre por sipnosis" name="findMovieByStoryLine"> <button type="submit" name="submitByStoryLine">Buscar</button></label>
     </form>
     <form action="" method="post">
-        <label for="findMovieByActor">Buscar por actor: <input id="findMovieByActor" type="text" placeholder="aqui nombre actor" name="findMovieByActor"> <button type="submit">Buscar</button></label>
+        <label for="findMovieByActor">Buscar por actor: <input id="findMovieByActor" type="text" placeholder="aqui nombre actor" name="findMovieByActor"> <button type="submit" name="submitByActors">Buscar</button></label>
     </form>
 </body>
 </html>
 
 
 <?php
-$counterMovies = 0; //to count movies 
-foreach($data as $item){
-    $counterMovies++;
+$countMovies = 0; //to count movies 
+foreach($data as $movie){
+    $countMovies++;
     echo '<hr>';
-    echo '<p style="font-weight: bold; font-size: 3rem;">' . '<label>Titulo:' . $item['title'] . '</label></p><br>';
-    echo '<p style="font-weight: lighter; font-size: 1.3rem;">' . '<label>año:' . $item['year'] . '</label></p><br>';
+    echo '<p style="font-weight: bold; font-size: 3rem;">' . '<label>Titulo:<br>' . $movie['title'] . '</label></p><br>';
+    echo '<p style="font-weight: lighter; font-size: 1.3rem;">' . '<label>año:<br>' . $movie['year'] . '</label></p><br>';
+    echo '<p style="font-weight:lighter; font-style: italic; font-size: 1em;"><label>Sinopsis:<br>' . $movie['storyline'] . '</label></p><br>';
 
 
-    if($item['actors']){
+    if($movie['actors']){
         //to count actors
-        $counterActors = 0;
-        foreach($item['actors'] as $actor){
-            $counterActors++;
+        $countActors = 0;
+        foreach($movie['actors'] as $actor){
+            $countActors++;
             echo '<p>' . $actor .'</p>';
         }
         echo '<br>';
     }
-    //total actores
-    echo '<p style="font-weight: 400; color: blue;"> Total actores es de ' . $counterActors . '</p>';
+    //total actors
+    echo '<p style="font-weight: 400; color: blue;"> Total actores es de ' . $countActors . '</p>';
 }
-//total peliculas
-echo '<p style="font-weight: 400; color: blue; display: top;"> Total peliculas es de ' . $counterMovies. '</p>';
+//total movies 
+echo '<p style="font-weight: 400; color: blue; display: top;"> Total peliculas es de ' . $countMovies. '</p>';
 ?>
 

@@ -6,7 +6,7 @@
 //**** try to call the differents parts correctly 
 
 //fetching and return data
-    function getData(){
+    function fetchData(){
         //Warring: check the reload when i trying to find the data into de json file
     //getting (using get) 
     $url = "http://www.holaformacion.com/json/movies.json";
@@ -18,20 +18,23 @@
 
     
     function getfilteredData($data, $input){
-        foreach($data as $item){
-            //covert string in string's array
-            $inputArr = str_split($input, '');
-
-            foreach($word as $inputArr){
-                if(strpos(($storyLine = $item['storyline']), $word) !== false){
-                    echo 'estoy aqui ';
-                    return '<div>' . $item['title'] . '<br><p>'. $storyLine .'</p></div>';
-                }elseif($actors == $item['actors']){    
-                    //Todo
+        foreach($data as $movie){
+            $inputArr = preg_split('/\s+/', $input);
+            foreach($inputArr as $word){
+                if(strpos(($storyLine = $movie['storyline']), $word) !== false){
+                    echo infoMovie($movie);
+                    continue;
+                }elseif($actors == $movie['actors']){//change this code, i need to accesing into movies> actors> and compare for each actor in
+                    echo infoMovie($movie);
                 }else {
-                    return '<div style="width: 100%; background-color: red;"><p>Ninguna coincidencia</p></div>';
+                    echo '<p style="font-weight: 400; color: blue;"> Ninguna coincidencia</p>';
                 }
             }
         }
+    }
+
+
+    function infoMovie($movie){
+        return '<div><p style="font-weight: bold; font-size: 3rem;">' . '<label>Titulo:<br>' . $movie['title'] . '</label></p><br></div> <p style="font-weight:lighter; font-style: italic; font-size: 1em;"><label>Sinopsis:<br>' . $movie['storyline'] . '</label></p><br>';
     }
 ?>
