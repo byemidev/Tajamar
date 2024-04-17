@@ -1,12 +1,30 @@
 <?php
+    include_once('movies.php');
+    $data = getData();
 
-//Warring: check the reload when i trying to find the data into de json file
-//obtener (mediante get) 
-$url = "http://www.holaformacion.com/json/movies.json";
-$json = file_get_contents($url);
-$data = json_decode($json, true);
-//tengo mostrar los inputs para la busqueda antes  
+    //input 
+    // Check if the form was submitted
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // Check which form was submitted
+        if (isset($_POST['submitSipnosis'])) {
+            $inFindMovieByStoryLine = $_POST['findMovieBySipnosis'];
+            $inFindMovieByStoryLine = htmlspecialchars(trim($inFindMovieBySipnosis));
+            //TODO: find in the data about sipnosis trying to match the input and the data.
+            //TODO: Show the output in a new window
+            //TODO this i can to make a function with out this logic , and call to catch the return values
+            //TODO: check the result 
+            $result = getfilteredData($data, $inFindMovieBySipnosis);
+            echo $result;
+        }
+        elseif (isset($_POST['submitActor'])) {
+            $inFindMovieByActor = $_POST['findMovieByActor'];
+            $inFindMovieByActor = htmlspecialchars(trim($inFindMovieByActor));
+            //TODO: find in the data about actor trying to match the input and the data.
+            //TODO: Show the output in a new window
+        }
+    }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -24,30 +42,9 @@ $data = json_decode($json, true);
     </form>
 </body>
 </html>
+
+
 <?php
-//input 
-// Check if the form was submitted
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Check which form was submitted
-    if (isset($_POST['submitSipnosis'])) {
-        $inFindMovieByStoryLine = $_POST['findMovieBySipnosis'];
-        $inFindMovieByStoryLine = htmlspecialchars(trim($inFindMovieBySipnosis));
-        //TODO: find in the data about sipnosis trying to match the input and the data.
-        //TODO: Show the output in a new window
-        //TODO this i can to make a function with out this logic , and call to catch the return values
-        //TODO: check the result 
-        $result = getfilteredData($inFindMovieBySipnosis);
-        echo $result;
-    }
-    elseif (isset($_POST['submitActor'])) {
-        $inFindMovieByActor = $_POST['findMovieByActor'];
-        $inFindMovieByActor = htmlspecialchars(trim($inFindMovieByActor));
-        //TODO: find in the data about actor trying to match the input and the data.
-        //TODO: Show the output in a new window
-    }
-}
-
-
 $counterMovies = 0; //to count movies 
 foreach($data as $item){
     $counterMovies++;
@@ -70,25 +67,5 @@ foreach($data as $item){
 }
 //total peliculas
 echo '<p style="font-weight: 400; color: blue; display: top;"> Total peliculas es de ' . $counterMovies. '</p>';
-
-
-function getfilteredData($input){
-    foreach($data as $item){
-        //covert string in string's array
-        $inputArr = str_split($input, '');
-
-        foreach($word as $inputArr){
-            if(strpos(($storyLine = $item['storyline']), $word) !== false){
-                echo 'estoy aqui ';
-                return '<div>' . $item['title'] . '<br><p>'. $storyLine .'</p></div>';
-            }elseif($actors == $item['actors']){    
-                //Todo
-            }else {
-                return '<div style="width: 100%; background-color: red;"><p>Ninguna coincidencia</p></div>';
-            }
-        }
-    }
-}
-
 ?>
 
