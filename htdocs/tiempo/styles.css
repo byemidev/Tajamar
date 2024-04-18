@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/182/163/original/blue-sky-and-beautiful-clouds-free-photo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.flexwrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
