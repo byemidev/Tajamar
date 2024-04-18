@@ -9,7 +9,7 @@
     function fetchData(){
         //Warring: check the reload when i trying to find the data into de json file
     //getting (using get) 
-    $url = "http://www.holaformacion.com/json/movies.json";
+    $url = "movies.json";
     $json = file_get_contents($url);
     $data = json_decode($json, true);
 
@@ -24,10 +24,6 @@
                 if(strpos(($storyLine = $movie['storyline']), $word) !== false){
                     echo infoMovie($movie);
                     continue;
-                }elseif($actors == $movie['actors']){//change this code, i need to accesing into movies> actors> and compare for each actor in
-                    echo infoMovie($movie);
-                }else {
-                    echo '<p style="font-weight: 400; color: blue;"> Ninguna coincidencia</p>';
                 }
             }
         }
