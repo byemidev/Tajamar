@@ -2,10 +2,6 @@ USE regcalls;
 
 DROP TABLE llamadas; 
 
-CREATE DATABASE regcalls; 
-
-USE regcalls; 
-
 CREATE TABLE llamadas (
     FECHA VARCHAR(10),
     HORA TIME,
