@@ -93,7 +93,7 @@ $submit = $_POST['submit'];
         }catch(Exception $e){
             echo 'ocurrio algo con la base de datos' . $e;
         }
-    
+        //getting columns using meta database info
         $columns = $base_datos->query("SELECT COLUMN_NAME AS columna FROM  information_schema.columns
                                         WHERE table_schema = 'regcalls' AND table_name = 'llamadas'")->fetchAll(PDO::FETCH_COLUMN);
     
