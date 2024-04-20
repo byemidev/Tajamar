@@ -47,17 +47,13 @@ $submit = $_POST['submit'];
         $i = 0;
         if($conn){
     
-            $i++;//for unique exec
-    
-            if($i===1){
-                $fp = fopen($callsCSV, 'w');
-                $columns = getColumns();
-                fputcsv($fp, $columns, ';');
-                fclose($fp);
-            }
-            
+            $fp = fopen($callsCSV, 'w');
+            $columns = getColumns();
+            fputcsv($fp, $columns, ';');
+            fclose($fp);
+        
             $sql = 'SELECT * FROM llamadas ';
-            
+        
             if($result = mysqli_query($conn, $sql)){
     
                 $fp = fopen($callsCSV, 'a');
