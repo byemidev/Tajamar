@@ -1,0 +1,25 @@
+USE regcalls; 
+
+DROP TABLE llamadas; 
+
+CREATE DATABASE regcalls; 
+
+USE regcalls; 
+
+CREATE TABLE llamadas (
+    FECHA VARCHAR(10),
+    HORA TIME,
+    ESPECIAL VARCHAR(3),
+    DURACION TIME,
+    Llamado INT,
+    Llamante INT,
+    TIPO_CLIENTE VARCHAR(255),
+    IDIOMA VARCHAR(255),
+    COORDINADOR INT,
+    INICIO TIME,
+    FIN TIME,
+    DURACION_2 TIME,
+    TIEMPO_COLA INT,
+    ATENDIDA VARCHAR(3),
+    CODIGO VARCHAR(255)
+);
