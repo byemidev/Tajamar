@@ -44,7 +44,7 @@ $submit = $_POST['submit'];
     function downloadCSV(){
         $callsCSV = "calls.csv";
         $conn = new mysqli('localhost','root','','regcalls') or die('error en la conexion: mysql');
-        $i = 0;
+        
         if($conn){
     
             $fp = fopen($callsCSV, 'w');
@@ -78,7 +78,8 @@ $submit = $_POST['submit'];
             }
         }
         $conn->close();
-        //to delete after dowload
+        //to delete after dowload: header save a copy file into the directory
+        unlink($callsCSV);
     }
 
 
