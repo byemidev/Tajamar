@@ -25,7 +25,6 @@ $submit = $_POST['submit'];
 
         foreach($data as $llamada){
             
-            //TODO: fix date format to insert into the table
             if($stmt= $conn->prepare('INSERT INTO llamadas (FECHA, HORA, ESPECIAL, DURACION , Llamado, Llamante , TIPO_CLIENTE , IDIOMA, COORDINADOR, INICIO, FIN, TIEMPO_COLA, ATENDIDA, CODIGO) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)')){
                 $stmt->bind_param("ssssssssssssss", $llamada['FECHA'], $llamada['HORA'], $llamada['ESPECIAL'], $llamada['DURACION'], $llamada['Llamado'], $llamada['Llamante'], $llamada['TIPO CLIENTE'], $llamada['IDIOMA'], $llamada['COORDINADOR'], $llamada['INICIO'],$llamada['FIN'], $llamada['TIEMPO COLA'], $llamada['ATENDIDA'], $llamada['CODIGO'] );
                 echo '<p>añadiendo registros a la base de datos</p>';
@@ -97,3 +96,4 @@ $submit = $_POST['submit'];
         return $columns;
     }
 ?>
+g
