@@ -1,8 +1,9 @@
 <?php
+    session_start();
     //getting connection
     $conn = mysqli_connect('localhost','root','','grupoLLamadas') or die('error en la conexion a base de datos(MYSQL), matando conexion....');
-    
     $sql = "SELECT * FROM grupos";
+    
 ?>
 
     <!DOCTYPE html>
@@ -25,7 +26,6 @@
         <tbody>
             <tr>
 <?php
-    session_start();
 
     if($result = mysqli_query($conn, $sql)){
         while($row = $result->fetch_assoc()){ 
@@ -47,6 +47,8 @@
         </tbody>
     
 <?php    
+        //catching id_grupo selected
+        $_SESSION['id_grupo'] = echo '<script> session_id.getID;</script>';
         }//while
     }//if
 ?>

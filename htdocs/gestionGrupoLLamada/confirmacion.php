@@ -1,6 +1,6 @@
 <?php
     session_start();
-    if($_SESSION['id_grupo']){
+    if(isset($_SESSION['id_grupo'])){
         
 ?>
 

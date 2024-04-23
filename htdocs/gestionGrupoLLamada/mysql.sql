@@ -19,6 +19,5 @@ CREATE TABLE numeros (
 
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (91, 'Madrid');
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (93, 'Barcelona');
-INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (91, 'Madrid');
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (93, 'Barcelona');
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (96, 'Valencia');

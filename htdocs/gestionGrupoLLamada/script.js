@@ -1,4 +1,4 @@
-
+//script.js
 //para $_SESSION
 const session_id = {
     id: null,
@@ -27,10 +27,12 @@ const form_data = {
     }
 };
 
-const btnAdd = document.querySelector(".add");
-btnAdd.addEventListener("click" , (event)=>{
-    console.log('se ha producido el evento' + event.target.value);
-    session_id.setID= event.target.value;
+
+//TODO: probar este codigo 
+const Add = document.querySelector(".add");
+Add.addEventListener("click", (event) => {
+    const buttonValue = event.target.getAttribute("value");
+    session_id.setID = buttonValue;
     console.log(session_id.getID);
     window.location.href="registro.php";
 });
