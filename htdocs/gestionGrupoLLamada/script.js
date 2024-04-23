@@ -1,21 +1,38 @@
-const btnAdd = document.getElementById("add");
 
+//para $_SESSION
+const session_id = {
+    id: null,
+    set setID(new_id){
+        this.id = new_id;
+    },
+    get getID(){
+        return this.id;
+    }
+};
+
+//para objetos form
+const form_data = {
+    nombre: null, desc: null, 
+    set setNombre(_nombre){
+        this.nombre = _nombre;
+    },
+    get getNombre(){
+        return this.nombre;
+    }, 
+    set setDesc(_desc){
+        this.desc = _desc;
+    }, 
+    get getDesc(){
+        return this.desc;
+    }
+};
+
+const btnAdd = document.querySelector(".add");
 btnAdd.addEventListener("click" , (event)=>{
-        var value = event.target.value;
-        switch(value){
-            case "1":
-            //insertar en madrid
-                window.URL('insertMadrid.php');
-                break;
-            case "2": 
-            //insertar en barcelona
-                break;
-            case "3": 
-            //insertar en andalucia
-                break;
-
-            case "4": 
-            //valencia
-                break;
-        }
+    console.log('se ha producido el evento' + event.target.value);
+    session_id.setID= event.target.value;
+    console.log(session_id.getID);
+    window.location.href="registro.php";
 });
+
+

@@ -25,6 +25,7 @@
         <tbody>
             <tr>
 <?php
+    session_start();
 
     if($result = mysqli_query($conn, $sql)){
         while($row = $result->fetch_assoc()){ 
@@ -36,10 +37,11 @@
                 <?php echo $row['nombre_grupo']?>
             </td>
             <?php
-            $i=0;//for adding button value
-
-            echo '<td><button id="ver">info</button></td>';
-            echo '<td><button id="add" value="'. $i++ . '">añadir</button></td>';
+           
+            echo '<td><button class="ver">info</button></td>';
+            echo '<td><button class="add" value="'. $row['id_grupo'] . '">añadir</button></td>';
+            //recoger id 
+            
             ?>
             </tr>
         </tbody>
@@ -49,8 +51,8 @@
     }//if
 ?>
     </table>
-    <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script> 
+</body>
     </html>
     
 
