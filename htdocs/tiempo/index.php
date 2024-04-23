@@ -1,15 +1,12 @@
 <?php
-    //catching data returns
-    include_once('weather.php');
-    $data = fetchData();
+include_once('weather.php');
+$data = fetchData();
 
-    $i=0;
-    foreach($data as $item){
-     //working in body
-     echo $i++; //to kno how many items json had
-     //TODO; find locality to shoy the title into the body
-     //TODO; Find days to show into the body as cards into a grid
-     
+if($data ===null){
+    echo 'sin datos';
+}else {
+    
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -20,15 +17,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="grid">
-    <?php 
-    /*the code bellow didnt work bcause i tried to compare and array as string in strpos() method
+    <?php
+        //header
+        echo '<h1 class="header">' . 'Hoy en ' . $data['locality']['name'] . '</h1>';
+        //getting {Root}.locality
         $findMe = "day";
-        if($day = strpos($item, $findMe)){
-           $weather = new Weather($item['date'], $item['icon'], $item['temperature_max'], $item['temperature_min'], $item['text'], $item['humidity'], $item['moonphase']);
-           $weather->__toString();
-       }
-       */
+         
+        for($i = 1; $i <=7; $i++){
+            //TODO $data['day' . (string)$i]['values'] 
+            
+            
+            //if($day = strpos($data, $findMe)){
+                //$weather = new Weather($item['date'], $item['icon'], $item['temperature_max'], $item['temperature_min'], $item['text'], $item['humidity'], $item['moonphase']);
+                //$weather->__toString();
+                //}
+        }
+            
     }
-    ?>
+?>
 </body>
 </html>
