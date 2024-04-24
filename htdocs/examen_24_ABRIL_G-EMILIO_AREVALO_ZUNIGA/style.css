@@ -1,0 +1,23 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 99%;
+    height: auto;
+    text-align: center;
+    padding: 1.5em;
+    background-color: gray;
+    font-weight: 400;
+    font-family: monospace;
+    color: white;
+    padding-top: 15%;
+}
+
+button[name="submit"]{
+    width: 250px !important;
+    height: fit-content !important;
+    padding: 2px !important;
+    font-size: xx-large;
+}
