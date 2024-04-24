@@ -9,7 +9,7 @@ CREATE TABLE grupos (
 );
 
 CREATE TABLE numeros (
-    id_numero INT(10),
+    id_numero INT(10) AUTO_INCREMENT,
     nombre VARCHAR(100),
     descripcion VARCHAR(255),
     id_grupo INT(10),
@@ -19,5 +19,6 @@ CREATE TABLE numeros (
 
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (91, 'Madrid');
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (93, 'Barcelona');
-INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (93, 'Barcelona');
 INSERT INTO grupos (id_grupo, nombre_grupo) VALUES (96, 'Valencia');
+
+
