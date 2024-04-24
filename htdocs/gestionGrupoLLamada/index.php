@@ -48,7 +48,7 @@
     
 <?php    
         //catching id_grupo selected
-        $_SESSION['id_grupo'] = echo '<script> session_id.getID;</script>';
+        $_SESSION['id_grupo'] = '<script> return session_id.getID;</script>';
         }//while
     }//if
 ?>
