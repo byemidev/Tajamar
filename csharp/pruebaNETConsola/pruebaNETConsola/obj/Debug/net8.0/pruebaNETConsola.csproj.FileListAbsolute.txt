@@ -1,0 +1,15 @@
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\bin\Debug\net8.0\pruebaNETConsola.exe
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\bin\Debug\net8.0\pruebaNETConsola.deps.json
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\bin\Debug\net8.0\pruebaNETConsola.runtimeconfig.json
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\bin\Debug\net8.0\pruebaNETConsola.dll
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\bin\Debug\net8.0\pruebaNETConsola.pdb
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.AssemblyInfoInputs.cache
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.AssemblyInfo.cs
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.csproj.CoreCompileInputs.cache
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.sourcelink.json
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.dll
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\refint\pruebaNETConsola.dll
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.pdb
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\pruebaNETConsola.genruntimeconfig.cache
+C:\Users\Cursostardes\Source\Repos\byemidev\Tajamar\NET\pruebaNETConsola\pruebaNETConsola\obj\Debug\net8.0\ref\pruebaNETConsola.dll
