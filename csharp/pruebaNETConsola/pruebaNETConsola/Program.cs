@@ -187,7 +187,40 @@ namespace pruebaNETConsola {
                 ejercicio5();
             
             }
-            //todo: leer enunciado , hacer 
+        }
+
+        //ejercicio6
+        //Cálculo de promedio: Pide al usuario que ingrese una serie de números y calcula su promedio.
+        public static void ejercicio6(){
+            Console.WriteLine("para esta operacion seran necesario 2 o mas numeros");
+            int contador = 0;
+            double sumatorio = 0;
+            while(true){
+                if(contador==0){//se ejecuta una vez para contador == 0
+                    Console.WriteLine("Escribe tu primer numero");
+                    double num = double.Parse(Console.ReadLine());
+                    sumatorio+=num;
+                    contador++;
+                }
+                if(conatdor==1){//se ejecuta una vez para contador == 1
+                    Console.WriteLine("Escribe tu segundo numero");
+                    double num = double.Parse(Console.ReadLine());
+                    sumatorio+=num;
+                    contador++;
+                }
+                if(contador >= 2){//se ejecuta n veces si contador >= a 2
+                    Console.WriteLine(  "Escribe otro numero o un  '.' para calcular y salir");
+                    String cadena = Console.ReadLine();
+                    if(cadena=="."){
+                        Console.WriteLine("\nGracias. El resultado es: " + sumatorio/contador + " .";
+                        break;
+                    }else{
+                    double num = double.Parse(cadena);
+                    sumatorio+=num;
+                    contador++;
+                    }
+                }
+            }
         }
 
 
