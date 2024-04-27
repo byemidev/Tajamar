@@ -49,7 +49,7 @@ namespace pruebaNETConsola {
             Console.WriteLine("2 - EJERCICIO 2 - hallar el area dada base y altura");
             Console.WriteLine("3 - EJERCICIO 3 - factorial de un numero");
             Console.WriteLine("4 - EJERCICIO 4 - Numero primo");
-            Console.WriteLine("5 - EJERCICIO 5");
+            Console.WriteLine("5 - EJERCICIO 5 - Conversor temperatura");
             Console.WriteLine("6 - EJERCICIO 6");
             Console.WriteLine("7 - EJERCICIO 7");
             Console.WriteLine("8 - EJERCICIO 8");
@@ -136,7 +136,7 @@ namespace pruebaNETConsola {
             if (num % 5 == 0) esPrimo = num == 5; //es divisible por 5
 
             double sqrtNum = Math.Sqrt(num); //obtencion de raiz cuadrada
-            for (int i = 7; i <= sqrtNum; i += 6) //empezamos el bucle desde el siguiente numero primo a 5, incremento de 6 en 6 i = i + 6
+            for (int i = 7; i <= sqrtNum; i += 6) //empezamos el bucle desde el siguiente numero primo a 5, que es 7 e incremento de 6 en 6 i = i + 6
             {
                 if (num % i == 0) esPrimo = false; //false si numero es divisible por i
                 if (num % (i + 2) == 0) esPrimo = false; //false si es divisible por el el siguiente numeor impar 
@@ -150,9 +150,43 @@ namespace pruebaNETConsola {
             else Console.WriteLine("NO es primo");
         }
         //ejercicio5
-        //todo: pegar enunciado
+        //Conversión de temperatura: Pregunta al usuario si desea convertir de Celsius a Fahrenheit o viceversa
+        //y realiza la conversión.
         public static void ejercicio5()
         {
+            Console.WriteLine("Introduzca una temperatura que desea convertir");
+            double tmp = double.Parse(Console.ReadLine());
+            
+            Console.WriteLine("\nQuiero convertir de:" 
+            + "\n1.-    Celsius (ºC) a Fahreinheit (ºF)"
+            + "\n2.-    Fahreinheit (ºF) a Celsius (ºC)"
+            + "\n0.-    SALIR."
+            );
+            
+            int opcion = Console.ReadLine();
+
+            if(opcion == 0){
+
+                exit();
+            
+            }
+
+            if(opcion==1){ 
+                
+                double fahrenheit = (tmp*(9/5)) + 32;
+                Console.WriteLine("La temperatura introducida equivale a " + fahrenheit + " ºF." );
+            
+            }else if(opcion==2){ 
+                
+                double centigrados = (tmp-32) * (5/9);
+                Console.WriteLine("La temperatura introducida equivale a " + centigrados + " ºC.");
+            
+            }else{
+                
+                Console.WriteLine("opcion no valida intentalo de nuevo");
+                ejercicio5();
+            
+            }
             //todo: leer enunciado , hacer 
         }
 
