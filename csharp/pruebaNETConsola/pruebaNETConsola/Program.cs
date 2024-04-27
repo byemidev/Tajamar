@@ -122,8 +122,7 @@ namespace pruebaNETConsola {
 
         //ejercicio 4
         //Números primos: Solicita al usuario que ingrese un número y determina si es primo o no. 
-
-        public static void ejercicio4() //AQUI TODO: fix method
+        public static void ejercicio4()
         {
             Console.WriteLine("Escribe el numero");
             int num = int.Parse(Console.ReadLine());
@@ -150,6 +149,14 @@ namespace pruebaNETConsola {
             }
             else Console.WriteLine("NO es primo");
         }
+        //ejercicio5
+        //todo: pegar enunciado
+        public static void ejercicio5()
+        {
+            //todo: leer enunciado , hacer 
+        }
+
+
 }//end class programa
 
 
