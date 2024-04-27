@@ -50,7 +50,7 @@ namespace pruebaNETConsola {
             Console.WriteLine("3 - EJERCICIO 3 - factorial de un numero");
             Console.WriteLine("4 - EJERCICIO 4 - Numero primo");
             Console.WriteLine("5 - EJERCICIO 5 - Conversor temperatura");
-            Console.WriteLine("6 - EJERCICIO 6");
+            Console.WriteLine("6 - EJERCICIO 6 - Hacer media o promedio de");
             Console.WriteLine("7 - EJERCICIO 7");
             Console.WriteLine("8 - EJERCICIO 8");
             Console.WriteLine("9 - EJERCICIO 9");
@@ -92,7 +92,7 @@ namespace pruebaNETConsola {
             double b = double.Parse(Console.ReadLine());
 
             Console.WriteLine(a+b);
-        }
+        }//fin ejercicio6()
 
         //ejercicio2 
         //Área de un triángulo: Solicita al usuario que ingrese la base y la altura de un triángulo y calcula su área. 
@@ -104,7 +104,7 @@ namespace pruebaNETConsola {
             double a = double.Parse(Console.ReadLine());
 
             Console.WriteLine((a*b)/2);
-        }
+        }//fin ejercicio2()
 
         //ejercicio3
         //Factorial de un número: Pide al usuario que ingrese un número y muestra su factorial. 
@@ -118,7 +118,7 @@ namespace pruebaNETConsola {
             }
 
             Console.WriteLine("El resultado es: \n" + factorial);
-        }
+        }//fin ejercicio3()
 
         //ejercicio 4
         //Números primos: Solicita al usuario que ingrese un número y determina si es primo o no. 
@@ -148,7 +148,7 @@ namespace pruebaNETConsola {
                 Console.WriteLine("SI primo");
             }
             else Console.WriteLine("NO es primo");
-        }
+        }//fin ejercicio4()
         //ejercicio5
         //Conversión de temperatura: Pregunta al usuario si desea convertir de Celsius a Fahrenheit o viceversa
         //y realiza la conversión.
@@ -187,7 +187,7 @@ namespace pruebaNETConsola {
                 ejercicio5();
             
             }
-        }
+        }//fin ejercicio5()
 
         //ejercicio6
         //Cálculo de promedio: Pide al usuario que ingrese una serie de números y calcula su promedio.
@@ -209,19 +209,19 @@ namespace pruebaNETConsola {
                     contador++;
                 }
                 if(contador >= 2){//se ejecuta n veces si contador >= a 2
-                    Console.WriteLine(  "Escribe otro numero o un  '.' para calcular y salir");
+                    Console.WriteLine("Escribe otro numero o un  '.' para calcular y salir");
                     String cadena = Console.ReadLine();
                     if(cadena=="."){
                         Console.WriteLine("\nGracias. El resultado es: " + sumatorio/contador + " .";
-                        break;
+                        break; //para salir del bucle infinito
                     }else{
                     double num = double.Parse(cadena);
                     sumatorio+=num;
                     contador++;
                     }
                 }
-            }
-        }
+            }//fin while 
+        }//fin ejercicio6()
 
 
 }//end class programa
