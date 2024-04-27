@@ -128,17 +128,21 @@ namespace pruebaNETConsola {
             Console.WriteLine("Escribe el numero");
             int num = int.Parse(Console.ReadLine());
 
-            Boolean esPrimo = false;
+            bool esPrimo = false;
+            //si es menor que 2 no puede ser primo
+            if (num < 2) esPrimo false;
 
-            for (int i = 1; i <= num; i++) {
-                if (num % i == 0)
-                {
-                    esPrimo = true;
-                }
-                else {
-                    esPrimo = false;
-                }
+            if (num % 2 == 0) esPrimo = num == 2; //es divisible por 2
+            if (num % 3 == 0) esPrimo = num == 3; //es divisible por 3
+            if (num % 5 == 0) esPrimo = num == 5; //es divisible por 5
+
+            double sqrtNum = Math.Sqrt(num); //obtencion de raiz cuadrada
+            for (int i = 7; i <= sqrtNum; i += 6) //empezamos el bucle desde el siguiente numero primo a 5, incremento de 6 en 6 i = i + 6
+            {
+                if (num % i == 0) esPrimo = false; //false si numero es divisible por i
+                if (num % (i + 2) == 0) esPrimo = false; //false si es divisible por el el siguiente numeor impar 
             }
+
 
             if (esPrimo)
             {
@@ -146,9 +150,7 @@ namespace pruebaNETConsola {
             }
             else Console.WriteLine("NO es primo");
         }
-
-
-    }//end class programa
+}//end class programa
 
 
 
