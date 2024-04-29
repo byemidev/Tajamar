@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection.Emit;
@@ -20,6 +21,13 @@ namespace pruebaNETConsola {
 
     internal class programa {
         public static void Main(String[] args) {
+
+
+            menu();
+
+
+
+
             //repaso basico clases
             /*
             person obj_person = new person();
@@ -47,44 +55,7 @@ namespace pruebaNETConsola {
 
             //output ejercicios
 
-            Console.WriteLine("Elije una de las siguientes opciones");
-            Console.WriteLine("1 - EJERCICIO 1 - suma dos numeros");
-            Console.WriteLine("2 - EJERCICIO 2 - hallar el area dada base y altura");
-            Console.WriteLine("3 - EJERCICIO 3 - factorial de un numero");
-            Console.WriteLine("4 - EJERCICIO 4 - Numero primo");
-            Console.WriteLine("5 - EJERCICIO 5 - Conversor temperatura");
-            Console.WriteLine("6 - EJERCICIO 6 - Hacer media o promedio de");
-            Console.WriteLine("7 - EJERCICIO 7");
-            Console.WriteLine("8 - EJERCICIO 8");
-            Console.WriteLine("9 - EJERCICIO 9");
-
-
-            int opcion = int.Parse(Console.ReadLine());
-
-            switch (opcion) {
-                case 1:
-                    ejercicio1();
-                    break;
-                case 2:
-                    ejercicio2();
-                    break;
-                case 3:
-                    ejercicio3();
-                    break;
-                case 4:
-                    ejercicio4();
-                    break;
-                case 5:
-                    ejercicio5();
-                    break;
-                case 6:
-                    ejercicio6();
-                    break;
-                default:
-                    Console.WriteLine("no disponible");
-                    break;
-            }
-        }
+        }//final main
 
 
 
@@ -230,8 +201,233 @@ namespace pruebaNETConsola {
             }//fin while 
         }//fin ejercicio6()
 
+        //ejercicio7
+        //Calculadora básica: Crea una calculadora que pueda sumar, restar, multiplicar y dividir dos números ingresados por el usuario.
 
-}//end class programa
+        public static void ejercicio7() {
+            //para almacenar operaciones aceptadas
+            char[] operaciones = {'+', '-', '*', '/'};
+
+            Console.WriteLine("CALCULADORA (escribe X para salir)\n" +
+                
+                "\nOperaciones: ");
+            //mostrando signos de operaciones
+            for (int i =  0; i < operaciones.Length; i++) {
+                Console.WriteLine(operaciones[i]);
+            }
+
+
+            Console.Write("Escribe el signo de la operacion que deseas realizar:    ");
+            string input = Console.ReadLine();
+            //instancia char para almacenar operacion
+            char operacion = 'x';
+
+            //para evaluar el signo introducido
+            bool inputCorrecto = true;
+
+            if (input.Length == 1)
+            {
+                if (char.TryParse(input, out char operacionInput))
+                {
+                    inputCorrecto = true;
+                    operacion = operacionInput;
+                }
+                else
+                {
+                    inputCorrecto = false;
+                    Console.WriteLine("operador invalido. Debe pertenecer a los mencionados anteriormente");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Error: operador debe ser de un un unico caracter");
+                inputCorrecto = false;
+
+            }
+
+            //instacias de variables para operar
+            double total = 0;
+            double nro1 = 0;
+            double nro2 = 0;
+
+            if (operacion!='x' && inputCorrecto==true){
+                switch (operacion) {
+                    case '+':
+                        Console.WriteLine("Primer numero para operar:    ");
+                        nro1 = double.Parse(Console.ReadLine());
+
+                        Console.WriteLine("segundo numero para operar:    ");
+                        nro2 = double.Parse(Console.ReadLine());
+
+                        total = nro1 + nro2;
+                        break;
+                    case '-':
+                        Console.WriteLine("Primer numero para operar:    ");
+                        nro1 = double.Parse(Console.ReadLine());
+
+                        Console.WriteLine("segundo numero para operar:    ");
+                        nro2 = double.Parse(Console.ReadLine());
+
+                        total = nro1 - nro2;
+                        break;
+                    case '*':
+                        Console.WriteLine("Primer numero para operar:    ");
+                        nro1 = double.Parse(Console.ReadLine());
+
+                        Console.WriteLine("segundo numero para operar:    ");
+                        nro2 = double.Parse(Console.ReadLine());
+
+                        total = nro1 * nro2;
+                        break;
+                    case '/':
+                        Console.WriteLine("Primer numero para operar:    ");
+                        nro1 = double.Parse(Console.ReadLine());
+
+                        Console.WriteLine("segundo numero para operar:    ");
+                        nro2 = double.Parse(Console.ReadLine());
+
+                        total = nro1 / nro2;
+                        break;
+                }
+            }
+
+            Console.WriteLine("--------------------------------------------------------------------------------------------------");
+            Console.WriteLine("|  " + nro1 + " " + operacion +  " " + nro2 + "  |");
+            Console.WriteLine("|                                                                                                 |");
+            Console.WriteLine("--------------------------------------------------------------------------------------------------");
+
+            //mostrar resultado
+            Console.WriteLine("| Resultado:  " + total);
+        }
+
+
+        //ejercicio 8
+        //Generador de números aleatorios: Crea un programa que genere y muestre una serie de números aleatorios. 
+
+        public static void ejercicio8() {
+
+            int limite = 0;
+            var obj = new Random();
+            
+            Console.WriteLine("Introduce el limite para calcular 6 numeros aleatorios");
+            try
+            {
+                double input = double.Parse(Console.ReadLine());
+                limite = (int)Math.Round(input);
+            }
+            catch (Exception e)
+            {
+                Console.Error.WriteLine("Error de entrada:   " + e.Message);
+            }
+            finally {
+                for (int i = 0; i < 6; i++)
+                {
+                    Console.WriteLine(i +"Nro:_____________" + obj.Next(0, limite));   
+                }
+            }
+
+        }//fin ejercicio8()
+
+
+        //ejercicio 9
+        //Ordenamiento de una lista: Solicita al usuario que ingrese una lista de números y ordénalos de manera ascendente.
+
+        public static void ejercicio9()
+        {
+            double[] lsNum = { };
+
+            int i = -1;
+            do
+            {
+                try
+                {
+                    Console.WriteLine("Escribe un numero");
+                    lsNum[i++] = double.Parse(Console.ReadLine());
+                }
+                catch (Exception e)
+                {
+                    Console.Error.WriteLine("error" + e.Message);
+                    break;
+                }
+                finally {//ordenando
+                    for (int x = 0; x < lsNum.Length; x++) {
+                        Console.WriteLine("ordenando....");
+                    }
+                }
+            }while (true);
+        }
+
+
+        //menu
+
+        public static void menu() {
+            Console.WriteLine("Elije una de las siguientes opciones");
+            Console.WriteLine("0 - Para salir");
+            Console.WriteLine("1 - EJERCICIO 1 - Suma dos numeros");
+            Console.WriteLine("2 - EJERCICIO 2 - Hallar el area dada base y altura");
+            Console.WriteLine("3 - EJERCICIO 3 - factorial de un numero");
+            Console.WriteLine("4 - EJERCICIO 4 - Numero primo");
+            Console.WriteLine("5 - EJERCICIO 5 - Conversor temperatura");
+            Console.WriteLine("6 - EJERCICIO 6 - Hacer media o promedio de");
+            Console.WriteLine("7 - EJERCICIO 7 - Calculadora");
+            Console.WriteLine("8 - EJERCICIO 8 - Numeros aleatorios");
+            Console.WriteLine("9 - EJERCICIO 9");
+
+            int opcion = 0;
+            try { 
+            opcion = int.Parse(Console.ReadLine());
+            }catch(Exception e)
+            {
+                Console.Error.WriteLine("Error en la entrada de datos" +  e.Message);
+                menu();
+            }finally {
+                switch (opcion)
+                {
+                    case 1:
+                        ejercicio1();
+                        break;
+                    case 2:
+                        ejercicio2();
+                        break;
+                    case 3:
+                        ejercicio3();
+                        break;
+                    case 4:
+                        ejercicio4();
+                        break;
+                    case 5:
+                        ejercicio5();
+                        break;
+                    case 6:
+                        ejercicio6();
+                        break;
+                    case 7:
+                        Console.BackgroundColor = ConsoleColor.DarkBlue;
+                        ejercicio7();
+                        Console.ResetColor();
+                        break;
+                    case 8:
+                        Console.BackgroundColor = ConsoleColor.Red;
+                        ejercicio8();
+                        Console.ResetColor();
+                        break;
+                    case 9:
+                        Console.BackgroundColor = ConsoleColor.DarkGreen;
+                        ejercicio9();
+                        Console.ResetColor();
+                        break;
+                    case 0:
+                        Console.WriteLine("saliendo .....");
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("no disponible");
+                        menu();
+                        break;
+                }//fin switch
+            }//fin finally
+        }//fin menu
+    }//end class programa
 
 
 
