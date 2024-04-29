@@ -5,8 +5,11 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Reflection.Emit;
+using System.Reflection.Metadata.Ecma335;
+using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Threading.Channels;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -71,6 +74,12 @@ namespace pruebaNETConsola {
                 case 4:
                     ejercicio4();
                     break;
+                case 5:
+                    ejercicio5();
+                    break;
+                case 6:
+                    ejercicio6();
+                    break;
                 default:
                     Console.WriteLine("no disponible");
                     break;
@@ -92,7 +101,7 @@ namespace pruebaNETConsola {
             double b = double.Parse(Console.ReadLine());
 
             Console.WriteLine(a+b);
-        }//fin ejercicio6()
+        }//fin ejercicio1()
 
         //ejercicio2 
         //Área de un triángulo: Solicita al usuario que ingrese la base y la altura de un triángulo y calcula su área. 
@@ -129,7 +138,7 @@ namespace pruebaNETConsola {
 
             bool esPrimo = false;
             //si es menor que 2 no puede ser primo
-            if (num < 2) esPrimo false;
+            if (num < 2) esPrimo = false;
 
             if (num % 2 == 0) esPrimo = num == 2; //es divisible por 2
             if (num % 3 == 0) esPrimo = num == 3; //es divisible por 3
@@ -163,12 +172,10 @@ namespace pruebaNETConsola {
             + "\n0.-    SALIR."
             );
             
-            int opcion = Console.ReadLine();
+            int opcion = int.Parse(Console.ReadLine());
 
             if(opcion == 0){
-
-                exit();
-            
+                Environment.Exit(0);
             }
 
             if(opcion==1){ 
@@ -202,7 +209,7 @@ namespace pruebaNETConsola {
                     sumatorio+=num;
                     contador++;
                 }
-                if(conatdor==1){//se ejecuta una vez para contador == 1
+                if(contador==1){//se ejecuta una vez para contador == 1
                     Console.WriteLine("Escribe tu segundo numero");
                     double num = double.Parse(Console.ReadLine());
                     sumatorio+=num;
@@ -212,7 +219,7 @@ namespace pruebaNETConsola {
                     Console.WriteLine("Escribe otro numero o un  '.' para calcular y salir");
                     String cadena = Console.ReadLine();
                     if(cadena=="."){
-                        Console.WriteLine("\nGracias. El resultado es: " + sumatorio/contador + " .";
+                        Console.WriteLine("\nGracias. El resultado es: " + sumatorio/contador + " .");
                         break; //para salir del bucle infinito
                     }else{
                     double num = double.Parse(cadena);

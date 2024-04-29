@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cursostardes\\Source\\Repos\\byemidev\\Tajamar\\NET\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj": {}
+    "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cursostardes\\Source\\Repos\\byemidev\\Tajamar\\NET\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj": {
+    "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cursostardes\\Source\\Repos\\byemidev\\Tajamar\\NET\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj",
+        "projectUniqueName": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj",
         "projectName": "pruebaNETConsola",
-        "projectPath": "C:\\Users\\Cursostardes\\Source\\Repos\\byemidev\\Tajamar\\NET\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj",
+        "projectPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\pruebaNETConsola\\pruebaNETConsola\\pruebaNETConsola.csproj",
         "packagesPath": "C:\\Users\\Cursostardes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cursostardes\\Source\\Repos\\byemidev\\Tajamar\\NET\\pruebaNETConsola\\pruebaNETConsola\\obj\\",
+        "outputPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\pruebaNETConsola\\pruebaNETConsola\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
