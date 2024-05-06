@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\hospitalapp_v_0_2\\hospitalapp_v_0_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|solutionrelative:hospitalapp_v_0_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Program.cs",
-              "RelativeDocumentMoniker": "HospitalApp_v_0_2\\Program.cs",
-              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Program.cs",
-              "RelativeToolTip": "HospitalApp_v_0_2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T15:57:32.447Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
