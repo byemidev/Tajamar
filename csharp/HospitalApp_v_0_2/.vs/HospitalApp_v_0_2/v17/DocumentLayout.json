@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\hospitalapp_v_0_2\\hospitalapp_v_0_2\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|solutionrelative:hospitalapp_v_0_2\\model\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\hospitalapp_v_0_2\\hospitalapp_v_0_2\\model\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|solutionrelative:hospitalapp_v_0_2\\model\\hospital.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\hospitalapp_v_0_2\\hospitalapp_v_0_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E9F174E-3AD5-4F19-9962-78F131B4B7C5}|HospitalApp_v_0_2\\HospitalApp_v_0_2.csproj|solutionrelative:hospitalapp_v_0_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Model\\Paciente.cs",
+              "RelativeDocumentMoniker": "HospitalApp_v_0_2\\Model\\Paciente.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Model\\Paciente.cs",
+              "RelativeToolTip": "HospitalApp_v_0_2\\Model\\Paciente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:00:59.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalApp_v_0_2\\Program.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Program.cs",
+              "RelativeToolTip": "HospitalApp_v_0_2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:46:12.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Hospital.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Model\\Hospital.cs",
+              "RelativeDocumentMoniker": "HospitalApp_v_0_2\\Model\\Hospital.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\HospitalApp_v_0_2\\HospitalApp_v_0_2\\Model\\Hospital.cs",
+              "RelativeToolTip": "HospitalApp_v_0_2\\Model\\Hospital.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAgwFoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T14:44:22.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

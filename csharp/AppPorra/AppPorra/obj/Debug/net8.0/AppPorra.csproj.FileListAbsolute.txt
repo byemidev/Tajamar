@@ -1,0 +1,15 @@
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\bin\Debug\net8.0\AppPorra.exe
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\bin\Debug\net8.0\AppPorra.deps.json
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\bin\Debug\net8.0\AppPorra.runtimeconfig.json
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\bin\Debug\net8.0\AppPorra.dll
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\bin\Debug\net8.0\AppPorra.pdb
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.AssemblyInfoInputs.cache
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.AssemblyInfo.cs
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.csproj.CoreCompileInputs.cache
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.sourcelink.json
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.dll
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\refint\AppPorra.dll
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.pdb
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\AppPorra.genruntimeconfig.cache
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\AppPorra\AppPorra\obj\Debug\net8.0\ref\AppPorra.dll

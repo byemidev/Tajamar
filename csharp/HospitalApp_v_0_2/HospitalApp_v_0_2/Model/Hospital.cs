@@ -88,9 +88,10 @@ namespace HospitalApp_v_0_2.Model
 
             return cita_obj;
         }
+        //BUSCAR PACIENTE CON CITA
         public static Paciente buscar_paciente(List<Cita> citas, int dni_paciente) {
 
-            Paciente paciente_aux = null;
+            Paciente paciente_aux = new Paciente();
 
             citas.ForEach(cita => {
                 Paciente paciente = cita.getPaciente();

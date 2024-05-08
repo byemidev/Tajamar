@@ -22,7 +22,10 @@ namespace HospitalApp_v_0_2
                 Console.WriteLine("#3.-  Buscar cita por paciente");
                 Console.WriteLine("#0.-  SALIR");
 
-                switch (int.Parse(Console.ReadLine())) {
+                int opcion = int.Parse(Console.ReadLine());
+
+                //switching
+                switch (opcion) {
                     case 1: Console.WriteLine("Vas a dar una cita de alta");
                         citas.Add(alta_cita());           
                         break;
@@ -46,14 +49,14 @@ namespace HospitalApp_v_0_2
                             Console.WriteLine($"MENSAJE DE ERROR{e.Message}");  
                         }
                         break;
-                    case 4: Console.WriteLine("SALIENDO....");
+                    case 0: Console.WriteLine("SALIENDO....");
                         Thread.Sleep(1500);//saliendo en 1.5s
                         salir = true;
                         break;
-                }
-
-            }
-        }
+                }//end switch
+            }//end while
+            Environment.Exit(0);
+        }//en main
     }
 
 }
