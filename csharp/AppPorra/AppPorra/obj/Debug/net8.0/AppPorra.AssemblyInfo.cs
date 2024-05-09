@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppPorra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+219e1d6e5e5cec8047aeecf2ffa287d50ced6b77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f9511734f4d32307bdc552c8fa488e92bf07e85")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppPorra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppPorra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

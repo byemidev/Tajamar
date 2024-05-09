@@ -13,7 +13,7 @@ namespace AppPorra
             bool salir = false;//para condicion de salida do while(!salir)
             do//principio do while()
             {
-                Console.WriteLine("----------- APP PORRA");
+                Console.WriteLine("----------- APP PORRA -------------");
                 Console.WriteLine("----------- #1 hacer apuesta");
                 Console.WriteLine("----------- #2 resultado porra");
                 Console.WriteLine("----------- #3 ver apuestas");
