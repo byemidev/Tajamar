@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE67DF12-A9E8-425F-AEB8-9E735B5C211F}|AppPorra\\AppPorra.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\appporra\\appporra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE67DF12-A9E8-425F-AEB8-9E735B5C211F}|AppPorra\\AppPorra.csproj|solutionrelative:appporra\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE67DF12-A9E8-425F-AEB8-9E735B5C211F}|AppPorra\\AppPorra.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\appporra\\appporra\\controller\\apostante_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE67DF12-A9E8-425F-AEB8-9E735B5C211F}|AppPorra\\AppPorra.csproj|solutionrelative:appporra\\controller\\apostante_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE67DF12-A9E8-425F-AEB8-9E735B5C211F}|AppPorra\\AppPorra.csproj|c:\\users\\cursostardes\\source\\repos\\tajamar\\csharp\\appporra\\appporra\\model\\apostante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE67DF12-A9E8-425F-AEB8-9E735B5C211F}|AppPorra\\AppPorra.csproj|solutionrelative:appporra\\model\\apostante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Apostante.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\AppPorra\\Model\\Apostante.cs",
+              "RelativeDocumentMoniker": "AppPorra\\Model\\Apostante.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\AppPorra\\Model\\Apostante.cs",
+              "RelativeToolTip": "AppPorra\\Model\\Apostante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T18:29:51.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Apostante_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\AppPorra\\Controller\\Apostante_Controller.cs",
+              "RelativeDocumentMoniker": "AppPorra\\Controller\\Apostante_Controller.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\AppPorra\\Controller\\Apostante_Controller.cs",
+              "RelativeToolTip": "AppPorra\\Controller\\Apostante_Controller.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T18:27:12.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\AppPorra\\Program.cs",
+              "RelativeDocumentMoniker": "AppPorra\\Program.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\source\\repos\\Tajamar\\csharp\\AppPorra\\AppPorra\\Program.cs",
+              "RelativeToolTip": "AppPorra\\Program.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAgwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T15:18:18.81Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

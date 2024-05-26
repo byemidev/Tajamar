@@ -1,0 +1,15 @@
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.AssemblyInfoInputs.cache
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.AssemblyInfo.cs
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.csproj.CoreCompileInputs.cache
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.sourcelink.json
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\bin\Debug\net8.0\HospitalApp_v_0_2.exe
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\bin\Debug\net8.0\HospitalApp_v_0_2.deps.json
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\bin\Debug\net8.0\HospitalApp_v_0_2.runtimeconfig.json
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\bin\Debug\net8.0\HospitalApp_v_0_2.dll
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\bin\Debug\net8.0\HospitalApp_v_0_2.pdb
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.dll
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\refint\HospitalApp_v_0_2.dll
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.pdb
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\HospitalApp_v_0_2.genruntimeconfig.cache
+C:\Users\Cursostardes\source\repos\Tajamar\csharp\HospitalApp_v_0_2\HospitalApp_v_0_2\obj\Debug\net8.0\ref\HospitalApp_v_0_2.dll
