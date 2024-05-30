@@ -1,0 +1,14 @@
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\obj\Debug\empleadosCRUD.csproj.AssemblyReference.cache
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\obj\Debug\empleadosCRUD.csproj.CoreCompileInputs.cache
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\empleadosCRUD.exe.config
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\empleadosCRUD.exe
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\empleadosCRUD.pdb
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\MySql.Data.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\System.Memory.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\System.Buffers.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\bin\Debug\MySql.Data.xml
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\obj\Debug\empleado.107B875C.Up2Date
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\obj\Debug\empleadosCRUD.exe
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\empleadosCRUD\empleadosCRUD\obj\Debug\empleadosCRUD.pdb

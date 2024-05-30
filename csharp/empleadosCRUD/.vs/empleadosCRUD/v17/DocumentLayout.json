@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\empleadoscrud\\empleadoscrud\\model\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|solutionrelative:empleadoscrud\\model\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\empleadoscrud\\empleadoscrud\\model\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|solutionrelative:empleadoscrud\\model\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\empleadoscrud\\empleadoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|solutionrelative:empleadoscrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\empleadoscrud\\empleadoscrud\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|solutionrelative:empleadoscrud\\departamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\empleadoscrud\\empleadoscrud\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|solutionrelative:empleadoscrud\\empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\empleadoscrud\\empleadoscrud\\sgbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810A034E-E186-43BB-9A6F-15FEB035CA42}|empleadosCRUD\\empleadosCRUD.csproj|solutionrelative:empleadoscrud\\sgbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "departamento.cs",
-              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\Model\\departamento.cs",
-              "RelativeDocumentMoniker": "empleadosCRUD\\Model\\departamento.cs",
-              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\Model\\departamento.cs",
-              "RelativeToolTip": "empleadosCRUD\\Model\\departamento.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T19:10:45.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "empleado.cs",
-              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\Model\\empleado.cs",
-              "RelativeDocumentMoniker": "empleadosCRUD\\Model\\empleado.cs",
-              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\Model\\empleado.cs",
-              "RelativeToolTip": "empleadosCRUD\\Model\\empleado.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Title": "departamento.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\departamento.cs",
+              "RelativeDocumentMoniker": "empleadosCRUD\\departamento.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\departamento.cs",
+              "RelativeToolTip": "empleadosCRUD\\departamento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T18:57:41.92Z",
+              "WhenOpened": "2024-05-30T18:34:04.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "empleado.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\empleado.cs",
+              "RelativeDocumentMoniker": "empleadosCRUD\\empleado.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\empleado.cs",
+              "RelativeToolTip": "empleadosCRUD\\empleado.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:34:03.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "sgbd.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\sgbd.cs",
+              "RelativeDocumentMoniker": "empleadosCRUD\\sgbd.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\sgbd.cs",
+              "RelativeToolTip": "empleadosCRUD\\sgbd.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T18:28:40.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\Program.cs",
               "RelativeDocumentMoniker": "empleadosCRUD\\Program.cs",
               "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\empleadosCRUD\\empleadosCRUD\\Program.cs",
               "RelativeToolTip": "empleadosCRUD\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T18:55:48.653Z",
+              "WhenOpened": "2024-05-30T18:28:39.871Z",
               "EditorCaption": ""
             }
           ]
