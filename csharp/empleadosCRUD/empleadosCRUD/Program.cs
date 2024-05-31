@@ -10,10 +10,8 @@ namespace empleadosCRUD
     {
         static void Main(string[] args)
         {
-            SGBD sgbd = new SGBD();
-            sgbd.openConn();
-            sgbd.createEmpleado(new empleado("4654545", "etxt", "asasas", "asassa", 12));
-            sgbd.closeConn();
+            Menu menu = new Menu();
+            menu.getMenu();
         }
     }
 }

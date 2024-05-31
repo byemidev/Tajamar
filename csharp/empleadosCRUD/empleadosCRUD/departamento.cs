@@ -6,14 +6,18 @@ using System.Threading.Tasks;
 
 namespace empleadosCRUD
 {
-    internal class departamento
+    internal class Departamento
     {
-        private int codigo;
-        private string nombre;
-        private double presupuesto, gastos;
+        public int codigo { get; set; }
+        public string nombre { get; set; }
+        public double presupuesto { get; set; }
+        public double gastos { get; set; }
 
-        public departamento(int codigo, string nombre, double presupuesto, double gastos) {
-            this.codigo = codigo;
+
+        public Departamento() { 
+        //constructor vacio
+        }   
+        public Departamento(string nombre, double presupuesto, double gastos) {
             this.nombre = nombre;   
             this.presupuesto = presupuesto;
             this.gastos = gastos;
@@ -23,5 +27,7 @@ namespace empleadosCRUD
         {
             return "codigo: " + this.codigo + "nombre: " + this.nombre + "presupuesto: " + this.presupuesto + "gastos: " + this.gastos; 
         }
+
+        
     }
 }

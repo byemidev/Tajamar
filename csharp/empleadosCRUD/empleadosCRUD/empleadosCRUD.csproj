@@ -49,9 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="departamento.cs" />
-    <Compile Include="empleado.cs" />
-    <Compile Include="sgbd.cs" />
+    <Compile Include="Departamento.cs" />
+    <Compile Include="Empleado.cs" />
+    <Compile Include="Menu.cs" />
+    <Compile Include="SGBD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
