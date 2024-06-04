@@ -9,14 +9,16 @@ namespace gestorPedidoApp
 {
     internal class Pedido
     {
-        private Cliente cliente;
-        private List<Producto> listaProductos;
-        private MetodoPago metodo;
+        public Cliente cliente { get; set; }
+        public List<Producto> listaProductos { get; set; }
+        public MetodoPago metodo { get; set; }
+        public DateTime fecha { get; set; }
 
         public Pedido() { 
             this.cliente = new Cliente();
             this.listaProductos = new List<Producto>(); 
             this.metodo = new MetodoPago();
+            this.fecha = DateTime.Now;
         }
     }
 }

@@ -18,25 +18,14 @@ namespace gestorPedidoApp
         private string password = ConfigurationManager.AppSettings["password"];
         public Conexion() {
              this.connection = new MySqlConnection($"server={server};database={database};user={user};password={password}");
+            this.connection.Open();
             Console.WriteLine("conectado a base de datos");
         }   
-
-        public void openConn()
-        {
-            try { 
-            this.connection.Open();
-                Console.WriteLine("conexion abierta");
-            }catch(Exception e)
-            {
-                Console.WriteLine("Error al abrir conexion" + e.ToString());    
-            }
-            
-        }
 
         public void closeConn() {
             try
             {
-            this.connection?.Close();
+            this.connection.Close();
             }catch (Exception e)  { 
                 Console.WriteLine("error al cerrar la conexion"  + e.ToString());
             }

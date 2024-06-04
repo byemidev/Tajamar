@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gestorPedidoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dce7f0d7064c63d63f4d66fec4828de0b744769e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b59ccd9bf5e266bf9e3f78a9911f3882edc4a102")]
 [assembly: System.Reflection.AssemblyProductAttribute("gestorPedidoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gestorPedidoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

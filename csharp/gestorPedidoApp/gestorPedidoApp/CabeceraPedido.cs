@@ -12,7 +12,7 @@ namespace gestorPedidoApp
 
         int id_cliente { get; set; }
 
-        string fecha { get; set; }  
+        DateTime fecha { get; set; }  
 
         int id_forma_pago { get; set; }
 
