@@ -8,7 +8,7 @@ using MySql.Data.MySqlClient;
 
 namespace gestorPedidoApp
 {
-    internal class gestionProductos
+    internal class GestionProducto
     {
         public List<Producto> listaProductos = new List<Producto>();
 

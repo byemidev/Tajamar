@@ -86,7 +86,13 @@ namespace gestorPedidoApp
                             gestorCliente.altaCliente(conexion_aux, pedido.cliente);
                         }
                     }
+                    //TODO: 
+                    /* 1.- Mostrar productos gestionProductos.cargarProductos()
+                     * 2.- Seleccionar productos en do while "agregar producto o pagar"
+                     *      2.1- dentro de cada seleccion ir creando obejetos cabecera y detalle de cabecera 
+                     */
 
+                   
                     
 
                     break;

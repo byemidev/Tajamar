@@ -17,7 +17,7 @@ namespace gestorPedidoApp
         private string user = ConfigurationManager.AppSettings["user"];
         private string password = ConfigurationManager.AppSettings["password"];
         public Conexion() {
-             this.connection = new MySqlConnection($"server={server};database={database};user={user};password={password}");
+            this.connection = new MySqlConnection($"server={server};database={database};user={user};password={password}");
             this.connection.Open();
             Console.WriteLine("conectado a base de datos");
         }   
