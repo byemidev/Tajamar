@@ -12,7 +12,7 @@ namespace gestorPedidoApp
     {
         public List<Producto> listaProductos = new List<Producto>();
 
-        public List<Producto> cargarProductos(MySqlConnection conexion) {
+        public void cargarProductos(MySqlConnection conexion) {
             
             string str_query = $"SELECT * FROM producto;";
             MySqlCommand cmd = new MySqlCommand(str_query, conexion);
@@ -20,10 +20,25 @@ namespace gestorPedidoApp
 
             while (reader.Read())
             {
-                listaProductos.Add(new Producto()); //TODO: pasar por parametro reader[n] para construir obejetos Produto
+                listaProductos.Add(new Producto(reader.GetInt32(0), reader.GetString(1), reader.GetDouble(2), reader.GetInt32(3)));
             }
 
-            return this.listaProductos;
+            listarProductos();
+        }
+
+        public void listarProductos()
+        {
+            Console.WriteLine("------------------------- PRODUCTOS --------------------------");
+
+            this.listaProductos.ForEach(
+                    (Producto) => Console.WriteLine("\nId: "    + Producto.id 
+                    + "\nNombre: "                              + Producto.nombre
+                    + "\nPrecio: "                              + Producto.precio + "€"
+                    + "\nExistencias: "                         + Producto.existencias
+                    )
+                ); 
         }
     }
+
+    
 }

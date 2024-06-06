@@ -9,7 +9,11 @@ namespace gestorPedidoApp
 {
     internal class MetodoPago
     {
-        int id { get; set; }
-        string nombre { get; set; }
+        public int id { get; set; }
+        public string nombre { get; set; }
+
+        public MetodoPago() { 
+            //constructor vacio
+        }
     }
 }

@@ -17,6 +17,9 @@ namespace gestorPedidoApp
         int id_forma_pago { get; set; }
 
         public CabeceraPedido   () { //constructor vacio
-        }  
+        }
+        public CabeceraPedido(int id) {
+            this.id = id;
+        }
     }
 }

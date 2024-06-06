@@ -4,6 +4,7 @@ using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Google.Protobuf.WellKnownTypes;
 using MySql.Data.MySqlClient;
 
 namespace gestorPedidoApp
@@ -33,10 +34,12 @@ namespace gestorPedidoApp
 
             GestionPedido gestorPedido = new GestionPedido();
             GestionCliente gestorCliente = new GestionCliente();  
+            GestionProducto gestorProducto = new GestionProducto();
+
+            int i = 0;
 
             switch (opcion)
             {
-
                 case 1:
                     Console.WriteLine("listando los pedidos...");
                     gestorPedido.mostrarPedidos(conexion);
@@ -53,7 +56,7 @@ namespace gestorPedidoApp
                     else {
                         Console.WriteLine("Ya existe un cliente con este numero de telefono");
                         Console.WriteLine("Desea continuar con otro numero de telefono?\n 1.- SI\n 2.- NO");
-                        int i = int.Parse(Console.ReadLine());
+                        i = int.Parse(Console.ReadLine());
                         if (i == 1) {
                             Console.WriteLine("Inserte el nuevo numero de telefono");
                             cliente.telefono = Console.ReadLine();
@@ -69,8 +72,8 @@ namespace gestorPedidoApp
 
                 case 3:
                     //instancing pedido
-                    Pedido pedido = new Pedido();   
-
+                    Pedido pedido = new Pedido();
+                 
                     Console.WriteLine("A que cliente quieres asignar el pedido?. Introduce el numero de telefono?");
                     string telefono = Console.ReadLine();
                     if (gestorCliente.clienteExiste(conexion_aux, telefono) == true)
@@ -79,7 +82,7 @@ namespace gestorPedidoApp
                     }
                     else {
                         Console.WriteLine("El cliente no exite desea: \n1.- Crear un cliente nuevo \n\n");
-                        int i = int.Parse(Console.ReadLine());
+                        i = int.Parse(Console.ReadLine());
                         if (i == 1)
                         {
                             pedido.cliente = gestorCliente.recogerCliente();
@@ -91,16 +94,51 @@ namespace gestorPedidoApp
                      * 2.- Seleccionar productos en do while "agregar producto o pagar"
                      *      2.1- dentro de cada seleccion ir creando obejetos cabecera y detalle de cabecera 
                      */
+                    gestorProducto.cargarProductos(conexion_aux);
 
-                   
+                    
+                    Console.WriteLine("-------------- SELECTOR DE PRODUCTOS -----------------");
+
+                    bool salir = false;
+                    do {
+                        Console.WriteLine("Selecciona un producto, escribe el id del producto");
+                        pedido.listaProductos.Add(new Producto(int.Parse(Console.ReadLine())));
+
+                        Console.WriteLine("1.- Seguir añadiendo \n 2.- Salir ");
+                        i = int.Parse(Console.ReadLine());
+                        if (!salir && i == 2)
+                        {
+                            salir = true;
+                        }
+                    } while (!salir);
+
+
+                    //crear cabeceras y detalles de cabecera de lista de productos por id llamar al procedimiento almacenado
+                    GestionCabecera gestorCabecera = new GestionCabecera();
+
+                    pedido.listaProductos.ForEach((Producto) => { 
+                        int i = gestorCabecera.insertarCabeceras(conexion_aux, pedido.cliente, pedido.metodo, pedido.fecha);
+                    });
+
+                    //gestorDetalleCabeceraPedido.insertarDetalles(pedido.listaProductos);
+                    
+                    Console.WriteLine("Como desea pagar");
+
+
+                    //cargarForma de pago 
+                    //gestorMetodoPago.listarMetodos();
+
+                    //pedido.metodoPago = asignar objeto de forma de pago;
+                    
                     
 
                     break;
+
                 default:
                     Console.WriteLine("Opcion no disponible");
                     break;
             }
         }
-    
+        
     }
 }
