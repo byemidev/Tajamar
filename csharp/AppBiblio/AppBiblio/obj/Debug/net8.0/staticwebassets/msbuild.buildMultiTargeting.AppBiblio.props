@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AppBiblio.props" />
+</Project>

@@ -1,0 +1,96 @@
+﻿@model IEnumerable<BibliotecaAppWeb.Models.Libro>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome!. We are Tajamar´s Library. Can we help you?</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <p class="">Mis libros</p><a href="Libroes/Create">Mis Libros</a>.</p>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    @* todo: mostrar libros como catalogo *@
+    @if (Model != null && Model.Any())
+    {
+        foreach(var libro in Model)
+        {
+            <div class="bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <h3 class="display-5">@libro.titulo</h3>
+                    <p class="lead">@libro.editorial</p>
+                </div>
+                <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+            </div>
+        }    
+
+    }
+    </div>
+        
+
+    <div>
+        @* todo: vistas parciales, la manera de a bajo no me sirve 
+        <h1>Index</h1>
+
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.isbn)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.titulo)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.autor)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.editorial)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.genero)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.idioma)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.isbn)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.titulo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.autor)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.editorial)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.genero)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.idioma)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        *@
+    </div>
+</div>
