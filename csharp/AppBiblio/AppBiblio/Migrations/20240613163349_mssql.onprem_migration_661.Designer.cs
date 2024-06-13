@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AppBiblio.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20240612170035_mssql.onprem_migration_613")]
-    partial class mssqlonprem_migration_613
+    [Migration("20240613163349_mssql.onprem_migration_661")]
+    partial class mssqlonprem_migration_661
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,6 +53,10 @@ namespace AppBiblio.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("titulo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("url")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

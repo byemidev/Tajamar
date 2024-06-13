@@ -14,5 +14,6 @@ namespace BibliotecaAppWeb.Models
         public string editorial { get; set; }
         public string genero { get; set; }
         public string idioma { get; set; } 
+        public string url { get; set; }
     }
 }

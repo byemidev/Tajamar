@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppBiblio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c68198ff3d20adb77c0703c81566ac0ceefdcfd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2275caa54fc57b33877cc0829ac250c3040cff24")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppBiblio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppBiblio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

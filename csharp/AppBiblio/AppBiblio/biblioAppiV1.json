@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "isbn": "978-84-663-4944-8",
+    "titulo": "Las hijas de la criada",
+    "autor": "Sonsoles Ónega",
+    "editorial": "Planeta",
+    "genero": "Novela histórica",
+    "idioma": "Español",
+    "url_imagen": "https://imagessl0.casadellibro.com/a/l/s7/70/9788408280170.webp"
+  },
+  {
+    "id": 2,
+    "isbn": "978-84-206-7589-6",
+    "titulo": "El Ángel de la Ciudad",
+    "autor": "Eva García Sáenz de Urturi",
+    "editorial": "Planeta",
+    "genero": "Novela negra",
+    "idioma": "Español",
+    "url_imagen": "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/thumbs/37811af0-a777-4673-96b1-1c07353cbef5/d_1200_1200/portada_el-angel-de-la-ciudad_eva-garcia-saenz-de-urturi_202310231105.webp "
+  },
+  {
+    "id": 3,
+    "isbn": "978-84-1794-407-3",
+    "titulo": "La ciudad de las estrellas",
+    "autor": "Arturo Pérez-Reverte",
+    "editorial": "Alfaguara",
+    "genero": "Novela histórica",
+    "idioma": "Español",
+    "url_imagen": "https://cdn10.bigcommerce.com/s-uttg8ip/products/43517/images/38793/9788427200562__45491.1502929581.1280.1280.jpg?c=2"
+  },
+  {
+    "id": 4,
+    "isbn": "978-84-9397-242-8",
+    "titulo": "El juego del alma",
+    "autor": "Javier Castillo",
+    "editorial": "Suma de Letras",
+    "genero": "Thriller psicológico",
+    "idioma": "Español",
+    "url_imagen": "https://m.media-amazon.com/images/I/81rdCMOXDpL._SL1500_.jpg"
+  },
+  {
+    "id": 5,
+    "isbn": "978-84-505-9513-8",
+    "titulo": "La piel del tambor",
+    "autor": "José Luis Zárate",
+    "editorial": "Plaza & Janés",
+    "genero": "Novela negra",
+    "idioma": "Español",
+    "url_imagen": "https://www.perezreverte.com/upload/fotos/libros/201002/pieltambor.jpg"
+  }
+]

@@ -5,7 +5,7 @@
 namespace AppBiblio.Migrations
 {
     /// <inheritdoc />
-    public partial class mssqlonprem_migration_613 : Migration
+    public partial class mssqlonprem_migration_661 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,8 @@ namespace AppBiblio.Migrations
                     autor = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     editorial = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     genero = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    idioma = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    idioma = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    url = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
