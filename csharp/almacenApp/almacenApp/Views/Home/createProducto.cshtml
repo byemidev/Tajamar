@@ -1,10 +1,14 @@
 ﻿@model almacenApp.Models.Producto
 
+@{
+    ViewData["Title"] = "createProducto";
+}
+
 <h4>Producto</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Productos">
+        <form method="post" asp-controller="Home" asp-action="CreateProducto">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="id_producto" class="control-label"></label>
@@ -43,5 +47,5 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_addProduct");}
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\almacenApp\almacenApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Cursostardes/Documents/repos/Tajamar/csharp/almacenApp/almacenApp/Views/Home/createProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjcmVhdGVQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cursostardes/Documents/repos/Tajamar/csharp/almacenApp/almacenApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,8 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cursostardes/Documents/repos/Tajamar/csharp/almacenApp/almacenApp/Views/Productos/Productos.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXFByb2R1Y3Rvcy5jc2h0bWw=
+[C:/Users/Cursostardes/Documents/repos/Tajamar/csharp/almacenApp/almacenApp/Views/Home/verProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVx2ZXJQcm9kdWN0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cursostardes/Documents/repos/Tajamar/csharp/almacenApp/almacenApp/Views/Shared/Error.cshtml]
