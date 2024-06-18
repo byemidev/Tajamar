@@ -27,7 +27,7 @@ namespace almacenApp.Controllers
                 {
                     conn.Open();
                     // cargar el menu 
-
+                    
                     conn.Close();
                     ViewData["ConnectionStatus"] = "Connection successful!";
                 }
@@ -39,8 +39,8 @@ namespace almacenApp.Controllers
             return View(); //mostrar vista home+menu
         }
 
-        public ActionResult getMenu() {
-            return PartialView("Productos"); //review
+        public ActionResult setProduct() {
+            return PartialView("_addProduct"); //review
         }
 
         public IActionResult Privacy()
