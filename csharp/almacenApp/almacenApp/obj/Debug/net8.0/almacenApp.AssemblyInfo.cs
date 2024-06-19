@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("almacenApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc7d93e70fc1495fdb1b6719e537281810e15762")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+118610301a3987b8eccfc076ff26a3df70728be1")]
 [assembly: System.Reflection.AssemblyProductAttribute("almacenApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("almacenApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,20 +1,18 @@
 ﻿@model almacenApp.Models.Producto
 
 @{
-    ViewData["Title"] = "createProducto";
+    ViewData["Title"] = "Create";
 }
 
-<h4>Producto</h4>
+<h1>Connection Status</h1>
+<p>@ViewData["ConnectionStatus"]</p>
+
+<h4>Crear nuevo producto</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post" asp-controller="Home" asp-action="CreateProducto">
+        <form method="post" asp-controller="producto" asp-action="createProductoOnDB">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="id_producto" class="control-label"></label>
-                <input asp-for="id_producto" class="form-control" />
-                <span asp-validation-for="id_producto" class="text-danger"></span>
-            </div>
             <div class="form-group">
                 <label asp-for="nombre" class="control-label"></label>
                 <input asp-for="nombre" class="form-control" />
@@ -43,7 +41,7 @@
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="List">Back to List</a>
 </div>
 
 @section Scripts {

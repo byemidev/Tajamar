@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\views\\home\\createproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\views\\home\\createproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\views\\producto\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\views\\producto\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\almacenapp\\almacenapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0555BAFC-164F-441D-B5EE-6F5E726D594B}|almacenApp\\almacenApp.csproj|solutionrelative:almacenapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +34,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "createProducto.cshtml",
-              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Home\\createProducto.cshtml",
-              "RelativeDocumentMoniker": "almacenApp\\Views\\Home\\createProducto.cshtml",
-              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Home\\createProducto.cshtml",
-              "RelativeToolTip": "almacenApp\\Views\\Home\\createProducto.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "DocumentIndex": 5,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "almacenApp\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "almacenApp\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T18:44:31.527Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-06-19T18:21:42.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "almacenApp\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "almacenApp\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wCAAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:44:20.811Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ValuesController.cs",
-              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Controllers\\ValuesController.cs",
-              "RelativeDocumentMoniker": "almacenApp\\Controllers\\ValuesController.cs",
-              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Controllers\\ValuesController.cs",
-              "RelativeToolTip": "almacenApp\\Controllers\\ValuesController.cs",
+              "DocumentIndex": 4,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "almacenApp\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Models\\Producto.cs",
+              "RelativeToolTip": "almacenApp\\Models\\Producto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:56:07.508Z",
+              "WhenOpened": "2024-06-19T18:18:55.707Z",
               "EditorCaption": ""
             },
             {
@@ -77,9 +70,48 @@
               "RelativeDocumentMoniker": "almacenApp\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "almacenApp\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-18T18:54:42.706Z",
+              "WhenOpened": "2024-06-19T18:18:53.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "almacenApp\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "almacenApp\\Controllers\\ProductoController.cs",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAQwG8AAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T17:59:32.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Producto\\List.cshtml",
+              "RelativeDocumentMoniker": "almacenApp\\Views\\Producto\\List.cshtml",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Producto\\List.cshtml",
+              "RelativeToolTip": "almacenApp\\Views\\Producto\\List.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:32:42.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Producto\\Edit.cshtml",
+              "RelativeDocumentMoniker": "almacenApp\\Views\\Producto\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\almacenApp\\almacenApp\\Views\\Producto\\Edit.cshtml",
+              "RelativeToolTip": "almacenApp\\Views\\Producto\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-19T16:30:03.537Z",
               "EditorCaption": ""
             }
           ]
