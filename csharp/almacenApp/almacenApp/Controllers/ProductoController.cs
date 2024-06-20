@@ -100,8 +100,7 @@ namespace almacenApp.Controllers
         }
         //editar
 
-        [HttpGet]
-        public IActionResult Edit(int _id)
+        public IActionResult Edit(int id)
         {
             Producto producto = null;
             _connection.Open();
@@ -110,19 +109,19 @@ namespace almacenApp.Controllers
                 using (var cmd = _connection.CreateCommand())
                 {
                     cmd.CommandText = "SELECT * FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
-                    cmd.Parameters.AddWithValue("@id", _id);
+                    cmd.Parameters.AddWithValue("@id", id);
 
                     SqlDataReader reader = cmd.ExecuteReader();
                     
                     if (reader.Read())
                     {
-                        producto = new Producto {
-                            id_producto = reader.GetInt32(0),
-                            stock_cantidad = reader.GetInt32(1),
-                            categoria = reader.GetInt32(2),
-                            precio = double.Parse(reader.GetDecimal(3).ToString()),
-                            nombre = reader.GetString(4)
-                        };
+                        producto = new Producto (
+                            int.Parse(reader[0].ToString()),
+                            (string )reader[1].ToString(),
+                            int.Parse(reader[2].ToString()),
+                            int.Parse(reader[3].ToString()),
+                            double.Parse(reader[4].ToString())
+                        );
                     }
                 }
             }
