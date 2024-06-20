@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using System.Data;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace almacenApp.Controllers
 {
@@ -45,12 +46,11 @@ namespace almacenApp.Controllers
 
                         cmd.ExecuteNonQuery();
 
-                    ViewData["ConnectionStatus"] = "Insertado...";
                 }
             }
             catch (Exception ex)
             {
-                ViewData["ConnectionStatus"] = $"Connection failed: {ex.Message}";
+                throw;
             }
             finally {
                 _connection.Close();
@@ -80,7 +80,7 @@ namespace almacenApp.Controllers
                         prod.id_producto = int.Parse(row["id_producto"].ToString());
                         prod.stock_cantidad = int.Parse(row["stock_cantidad"].ToString());
                         prod.categoria = int.Parse(row["categoria"].ToString());
-                        prod.precio = double.Parse(row["precio"].ToString());
+                        prod.precio = decimal.Parse(row["precio"].ToString());
                         prod.nombre = row["nombre"].ToString();
 
                         _listaProductos.Add(prod);
@@ -98,8 +98,8 @@ namespace almacenApp.Controllers
             }
             return View(_listaProductos); 
         }
-        //editar
-
+        //Edit
+        //[HttpGet] 
         public IActionResult Edit(int id)
         {
             Producto producto = null;
@@ -108,20 +108,20 @@ namespace almacenApp.Controllers
             {
                 using (var cmd = _connection.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT * FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
+                    cmd.CommandText = "SELECT id_producto, nombre, stock_cantidad, categoria, precio FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
                     cmd.Parameters.AddWithValue("@id", id);
 
                     SqlDataReader reader = cmd.ExecuteReader();
-                    
+
                     if (reader.Read())
                     {
-                        producto = new Producto (
-                            int.Parse(reader[0].ToString()),
-                            (string )reader[1].ToString(),
-                            int.Parse(reader[2].ToString()),
-                            int.Parse(reader[3].ToString()),
-                            double.Parse(reader[4].ToString())
-                        );
+                        int _id = (int)reader[0];
+                        string nombre = reader[1].ToString();
+                        int stock = (int)reader[2];
+                        int categoria = (int)reader[3];
+                        decimal precio = decimal.Parse(reader[4].ToString());
+
+                        producto = new Producto(_id, nombre, stock, categoria, precio);
                     }
                 }
             }
@@ -130,6 +130,7 @@ namespace almacenApp.Controllers
 
                 throw;
             }
+            finally { _connection.Close(); }
             return View(producto);
         }
 
@@ -137,6 +138,7 @@ namespace almacenApp.Controllers
         [HttpPost]
         public IActionResult EditByID(Producto prod)
         {
+            prod.precio = decimal.Parse(prod.precio.ToString().Replace(".", ","));
             try
             {
                 _connection.Open();
@@ -156,13 +158,146 @@ namespace almacenApp.Controllers
             {
                 ViewData["ConnectionStatus"] = $"Connection failed: {ex.Message}";
             }
-            finally {
-                _connection.Close();
-            }
+            finally { _connection.Close();}
 
 
             return RedirectToRoute(new { controller = "Home", action = "Index" });
         }
 
+
+        //Encontrar un producto por nombre
+
+        public IActionResult DetailsByName(string nombre) {
+            return View(returnIDProductosByName(nombre));
+        }
+
+        public List<Producto> returnIDProductosByName(string nombre)
+        {
+            List<Producto> productos = new List<Producto> ();
+            _connection.Open(); 
+            try {
+                using (var cmd = _connection.CreateCommand()) {
+                    cmd.CommandText = "SELECT id_producto, nombre, stock_cantidad, categoria, precio FROM [Tienda].[dbo].[Producto] WHERE nombre = @nombre;";
+                    cmd.Parameters.AddWithValue("@nombre", nombre);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (!reader.Read())
+                    {
+                        //reedireccionar a producto no existe 
+                    }
+                    else
+                    {
+                        while (reader.Read())
+                        {
+                            int _id = (int)reader[0];
+                            string _nombre = reader[1].ToString();
+                            int stock = (int)reader[2];
+                            int categoria = (int)reader[3];
+                            decimal precio = decimal.Parse(reader[4].ToString());
+                            productos.Add(new Producto(_id, _nombre, stock, categoria, precio));
+                        }
+                    }
+
+                }
+            }catch (Exception e){
+                throw;
+            }
+            return productos;
+        }
+
+        //Details
+        //para mostrar detalles del producto elegido desde desde ver productos 
+        public IActionResult Details(int id ) {
+
+            Producto producto = null;
+            _connection.Open();
+            try
+            {
+                using (var cmd = _connection.CreateCommand()) {
+                    cmd.CommandText = "SELECT id_producto, nombre, stock_cantidad, categoria, precio FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
+                    cmd.Parameters.AddWithValue("@id", id);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        int _id = (int)reader[0];
+                        string nombre = reader[1].ToString();
+                        int stock = (int)reader[2];
+                        int categoria = (int)reader[3];
+                        decimal precio = decimal.Parse(reader[4].ToString());
+
+                        producto = new Producto(_id, nombre, stock, categoria, precio);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+            }    
+            
+            return View(producto); 
+        }   
+
+        //eliminar producto
+
+        [HttpGet] 
+        public IActionResult Delete(int id) //rellena la vista Delete con los datos del producto que se selecciono para eliminar desde la vista.
+        {
+            Producto producto = null;
+            _connection.Open();
+            try
+            {
+                using (var cmd = _connection.CreateCommand())
+                {
+                    cmd.CommandText = "SELECT id_producto, nombre, stock_cantidad, categoria, precio FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
+                    cmd.Parameters.AddWithValue("@id", id);
+
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        int _id = (int) reader[0];
+                        string nombre = reader[1].ToString();
+                        int stock = (int) reader[2];
+                        int categoria = (int) reader[3];
+                        decimal precio = decimal.Parse(reader[4].ToString());
+
+                        producto = new Producto(_id, nombre, stock, categoria, precio);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }finally { _connection.Close(); }
+            return View(producto);
+        }
+
+        //Delete by id
+        [HttpPost]
+        public IActionResult DeleteOnDB(Producto prod)
+        {
+            try
+            {
+                _connection.Open();
+                ViewData["ConnectionStatus"] = "Connection successful!";
+                using (var cmd = _connection.CreateCommand())
+                {
+                    cmd.CommandText = @"DELETE FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
+                    cmd.Parameters.AddWithValue("@id", prod.id_producto);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+            finally { _connection.Close(); }
+
+            return RedirectToRoute(new { controller = "Home", action = "Index" });
+        }
     }
 }
