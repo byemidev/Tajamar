@@ -36,8 +36,13 @@
             @Html.DisplayFor(model => model.precio)
         </dd>
     </dl>
-    
+ 
     <form method="post" asp-controller="producto" asp-action="DeleteOnDB">
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        @Html.HiddenFor(model => model.id_producto)
+        @Html.HiddenFor(model => model.nombre)
+        @Html.HiddenFor(model => model.stock_cantidad)
+        @Html.HiddenFor(model => model.categoria)
+        @Html.HiddenFor(model => model.precio)
+        <input type="submit" value="Delete" class="btn btn-danger" />
     </form>
 </div>

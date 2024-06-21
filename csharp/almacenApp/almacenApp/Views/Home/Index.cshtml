@@ -3,27 +3,30 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">MENU</h1>
-    <div>
-        <h3><a href="/producto/list">1 - VER TODOS PRODUCTOS (Puedes editar, eliminar y ver los detalles del prodcuto)</a></h3>
-    </div>
-    <br />
-    <br />
-    <div>
-        <h3><a href="/producto/create">2 - Crea nuevos productos</a></h3>
-    </div>
-    <br />
-    <br />
-    <div>
-        <div class="container input-group rounded">
-            <h3>3 - Busca productos existentes por nombre</h3>
-            <form method="post" asp-controller="producto" asp-action="DetailsByName">
-                @model almacenApp.Models.Producto
-                <input asp-for="nombre"  type="search" class="form-control rounded" placeholder="Search" aria-label="Search"/>
-                <br/>
-                <input type="submit" value="Buscar" class="btn btn-dark"/>
-            </form>
+    <div class="menu">
+    
+        <h1 class="display-4">MENU</h1>
+
+        <div>
+            <h3><a href="/producto/list">Ver Productos </a></h3>
         </div>
+
+        <div>
+            <h3><a href="/producto/create">Crea un Producto</a></h3>
+        </div>
+
+     
+
+        <div>
+            <div class="container input-group rounded">
+                <form method="post" asp-controller="producto" asp-action="DetailsByName">
+                    @model almacenApp.Models.Producto
+                    <input asp-for="nombre" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" />
+                    <br />
+                    <input type="submit" value="Buscar" class="btn btn-dark" />
+                </form>
+            </div>
+        </div>
+    
     </div>
 </div>
-

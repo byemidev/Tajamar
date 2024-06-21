@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using System.Data;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace almacenApp.Controllers
 {
@@ -42,7 +42,7 @@ namespace almacenApp.Controllers
                         cmd.Parameters.AddWithValue("@nombre", prod.nombre);
                         cmd.Parameters.AddWithValue("@stockCantidad", prod.stock_cantidad);
                         cmd.Parameters.AddWithValue("@categoria", prod.categoria);
-                        cmd.Parameters.AddWithValue("@precio", prod.precio);
+                        cmd.Parameters.AddWithValue("@precio", decimal.Parse(prod.precio));
 
                         cmd.ExecuteNonQuery();
 
@@ -80,7 +80,7 @@ namespace almacenApp.Controllers
                         prod.id_producto = int.Parse(row["id_producto"].ToString());
                         prod.stock_cantidad = int.Parse(row["stock_cantidad"].ToString());
                         prod.categoria = int.Parse(row["categoria"].ToString());
-                        prod.precio = decimal.Parse(row["precio"].ToString());
+                        prod.precio = row["precio"].ToString();
                         prod.nombre = row["nombre"].ToString();
 
                         _listaProductos.Add(prod);
@@ -108,7 +108,7 @@ namespace almacenApp.Controllers
             {
                 using (var cmd = _connection.CreateCommand())
                 {
-                    cmd.CommandText = "SELECT id_producto, nombre, stock_cantidad, categoria, precio FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
+                    cmd.CommandText = "SELECT id_producto, nombre, stock_cantidad, categoria, precio  FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
                     cmd.Parameters.AddWithValue("@id", id);
 
                     SqlDataReader reader = cmd.ExecuteReader();
@@ -119,7 +119,7 @@ namespace almacenApp.Controllers
                         string nombre = reader[1].ToString();
                         int stock = (int)reader[2];
                         int categoria = (int)reader[3];
-                        decimal precio = decimal.Parse(reader[4].ToString());
+                        string precio = reader[4].ToString();
 
                         producto = new Producto(_id, nombre, stock, categoria, precio);
                     }
@@ -138,7 +138,7 @@ namespace almacenApp.Controllers
         [HttpPost]
         public IActionResult EditByID(Producto prod)
         {
-            prod.precio = decimal.Parse(prod.precio.ToString().Replace(".", ","));
+            prod.precio = prod.precio.ToString().Replace(".", ",");
             try
             {
                 _connection.Open();
@@ -148,7 +148,7 @@ namespace almacenApp.Controllers
                     cmd.CommandText = @"UPDATE [Tienda].[dbo].[Producto] SET stock_cantidad = @stock , categoria = @categoria, precio = @precio, nombre = @nombre WHERE id_producto = @id;";
                     cmd.Parameters.AddWithValue("@stock", prod.stock_cantidad);
                     cmd.Parameters.AddWithValue("@categoria", prod.categoria);
-                    cmd.Parameters.AddWithValue("@precio", prod.precio);
+                    cmd.Parameters.AddWithValue("@precio", decimal.Parse(prod.precio));
                     cmd.Parameters.AddWithValue("@nombre", prod.nombre);
                     cmd.Parameters.AddWithValue("@id", prod.id_producto);
                     cmd.ExecuteNonQuery();
@@ -182,22 +182,25 @@ namespace almacenApp.Controllers
 
                     SqlDataReader reader = cmd.ExecuteReader();
 
-                    if (!reader.Read())
-                    {
-                        //reedireccionar a producto no existe 
-                    }
-                    else
-                    {
-                        while (reader.Read())
+                        bool salida = false;
+                        while (true)
                         {
-                            int _id = (int)reader[0];
-                            string _nombre = reader[1].ToString();
-                            int stock = (int)reader[2];
-                            int categoria = (int)reader[3];
-                            decimal precio = decimal.Parse(reader[4].ToString());
-                            productos.Add(new Producto(_id, _nombre, stock, categoria, precio));
-                        }
-                    }
+                            if (reader.Read() != salida)
+                            {
+
+                                int _id = (int)reader[0];
+                                string _nombre = reader[1].ToString();
+                                int stock = (int)reader[2];
+                                int categoria = (int)reader[3];
+                                string precio = reader[4].ToString();
+                                productos.Add(new Producto(_id, _nombre, stock, categoria, precio));
+                            }
+                            else { 
+                                salida = true;
+                                break;
+                            }
+                        }   
+                    
 
                 }
             }catch (Exception e){
@@ -225,7 +228,7 @@ namespace almacenApp.Controllers
                         string nombre = reader[1].ToString();
                         int stock = (int)reader[2];
                         int categoria = (int)reader[3];
-                        decimal precio = decimal.Parse(reader[4].ToString());
+                        string precio = reader[4].ToString();
 
                         producto = new Producto(_id, nombre, stock, categoria, precio);
                     }
@@ -262,7 +265,7 @@ namespace almacenApp.Controllers
                         string nombre = reader[1].ToString();
                         int stock = (int) reader[2];
                         int categoria = (int) reader[3];
-                        decimal precio = decimal.Parse(reader[4].ToString());
+                        string precio = reader[4].ToString();
 
                         producto = new Producto(_id, nombre, stock, categoria, precio);
                     }
@@ -278,16 +281,20 @@ namespace almacenApp.Controllers
 
         //Delete by id
         [HttpPost]
-        public IActionResult DeleteOnDB(Producto prod)
+        public IActionResult DeleteOnDB(Producto producto)
         {
+            Producto _producto = new Producto();
             try
             {
                 _connection.Open();
                 ViewData["ConnectionStatus"] = "Connection successful!";
+
+                _producto.id_producto = producto.id_producto;
+
                 using (var cmd = _connection.CreateCommand())
                 {
                     cmd.CommandText = @"DELETE FROM [Tienda].[dbo].[Producto] WHERE id_producto = @id;";
-                    cmd.Parameters.AddWithValue("@id", prod.id_producto);
+                    cmd.Parameters.AddWithValue("@id", _producto.id_producto);
                     cmd.ExecuteNonQuery();
                 }
             }
