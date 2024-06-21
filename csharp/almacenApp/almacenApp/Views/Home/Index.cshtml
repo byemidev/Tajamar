@@ -4,7 +4,6 @@
 
 <div class="text-center">
     <div class="menu">
-    
         <h1 class="display-4">MENU</h1>
 
         <div>
@@ -15,13 +14,11 @@
             <h3><a href="/producto/create">Crea un Producto</a></h3>
         </div>
 
-     
-
         <div>
             <div class="container input-group rounded">
                 <form method="post" asp-controller="producto" asp-action="DetailsByName">
                     @model almacenApp.Models.Producto
-                    <input asp-for="nombre" type="search" class="form-control rounded" placeholder="Search" aria-label="Search" />
+                    <input asp-for="nombre" type="search" class="form-control rounded" placeholder="por nombre"/>
                     <br />
                     <input type="submit" value="Buscar" class="btn btn-dark" />
                 </form>
