@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\model\\trabajo_impl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\model\\trabajo_impl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\model\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\model\\trabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\model\\revision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\model\\revision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\model\\mecanico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\model\\mecanico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\model\\chapapintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\model\\chapapintura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\controller\\trabajo_implcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\controller\\trabajo_implcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\view\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\view\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\tallermecanico\\tallermecanico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8261CB99-8C67-4850-8EA4-65929AF56E66}|TallerMecanico\\TallerMecanico.csproj|solutionrelative:tallermecanico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Trabajo.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Trabajo.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\MODEL\\Trabajo.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Trabajo.cs",
+              "RelativeToolTip": "TallerMecanico\\MODEL\\Trabajo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:46:55.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Revision.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Revision.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\MODEL\\Revision.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Revision.cs",
+              "RelativeToolTip": "TallerMecanico\\MODEL\\Revision.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:43:59.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChapaPintura.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\ChapaPintura.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\MODEL\\ChapaPintura.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\ChapaPintura.cs",
+              "RelativeToolTip": "TallerMecanico\\MODEL\\ChapaPintura.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:42:31.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mecanico.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Mecanico.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\MODEL\\Mecanico.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Mecanico.cs",
+              "RelativeToolTip": "TallerMecanico\\MODEL\\Mecanico.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:42:11.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Trabajo_impl.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Trabajo_impl.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\MODEL\\Trabajo_impl.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\MODEL\\Trabajo_impl.cs",
+              "RelativeToolTip": "TallerMecanico\\MODEL\\Trabajo_impl.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwDYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:41:48.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Trabajo_implController.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\CONTROLLER\\Trabajo_implController.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\CONTROLLER\\Trabajo_implController.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\CONTROLLER\\Trabajo_implController.cs",
+              "RelativeToolTip": "TallerMecanico\\CONTROLLER\\Trabajo_implController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:01:19.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\VIEW\\Menu.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\VIEW\\Menu.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\VIEW\\Menu.cs",
+              "RelativeToolTip": "TallerMecanico\\VIEW\\Menu.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAqwBwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T16:00:52.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\Program.cs",
+              "RelativeDocumentMoniker": "TallerMecanico\\Program.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\TallerMecanico\\TallerMecanico\\Program.cs",
+              "RelativeToolTip": "TallerMecanico\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T15:56:56.638Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
