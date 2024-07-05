@@ -35,21 +35,21 @@ namespace Inmobiliaria.Migrations
                         .HasMaxLength(8)
                         .HasColumnType("nvarchar(8)");
 
-                    b.Property<double>("_base")
-                        .HasColumnType("float");
-
-                    b.Property<string>("_direccion")
+                    b.Property<string>("direccion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("_esNuevo")
+                    b.Property<bool>("es_nuevo")
                         .HasColumnType("bit");
 
-                    b.Property<DateOnly>("_fechaConstruccion")
+                    b.Property<DateOnly>("fecha_construccion")
                         .HasColumnType("date");
 
-                    b.Property<int>("_metros")
+                    b.Property<int>("metros")
                         .HasColumnType("int");
+
+                    b.Property<double>("precio_base")
+                        .HasColumnType("float");
 
                     b.HasKey("id");
 
@@ -64,7 +64,7 @@ namespace Inmobiliaria.Migrations
                 {
                     b.HasBaseType("Inmobiliaria.Models.Inmueble");
 
-                    b.Property<int>("_nroVentanas")
+                    b.Property<int>("nro_ventas")
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Local");
@@ -74,7 +74,7 @@ namespace Inmobiliaria.Migrations
                 {
                     b.HasBaseType("Inmobiliaria.Models.Inmueble");
 
-                    b.Property<int>("_planta")
+                    b.Property<int>("planta")
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Piso");

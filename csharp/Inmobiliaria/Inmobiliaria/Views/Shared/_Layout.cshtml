@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Inmobiliaria</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Inmobiliaria.styles.css" asp-append-version="true" />
 </head>
@@ -30,6 +31,42 @@
             </div>
         </nav>
     </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 bg-light d-flex flex-column justify-content-between sidebar">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Inmuebles")">
+                            <i class="bi bi-house-fill"></i> Ver Inmuebles
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Create", "Inmuebles")">
+                            <i class="bi bi-plus-square"></i> Crear Inmuebles
+                        </a>
+                    </li>
+                </ul>
+
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Edit", "Inmuebles")">
+                            <i class="bi bi-pencil-square"></i> Editar Inmuebles
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Delete", "Inmuebles")">
+                            <i class="bi bi-trash"></i> Eliminar Inmuebles
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-10">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

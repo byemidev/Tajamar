@@ -12,7 +12,7 @@ namespace Inmobiliaria.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
         }
-        // Agrega tus DbSet para cada entidad en tu base de datos
+        // Agrega tus DbSet para cada entidad en tu precio_base de datos
         public DbSet<Inmueble> Inmuebles { get; set; } // Base class DbSet
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -20,7 +20,7 @@ namespace Inmobiliaria.Models
             base.OnModelCreating(modelBuilder); 
 
             modelBuilder.Entity<Inmueble>()
-                .HasDiscriminator<string>("Tipo") // Discriminator column
+                .HasDiscriminator<string>("Tipo") // el discriminador asigna un "tipo" con el nombre de .HasValue<Class>()
                 .HasValue<Piso>("Piso")
                 .HasValue<Local>("Local");
 
