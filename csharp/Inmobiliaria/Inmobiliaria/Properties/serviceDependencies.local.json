@@ -8,7 +8,8 @@
       "serviceConnectorResourceId": "",
       "secretStore": "LocalSecretsFile",
       "type": "mssql.onprem",
-      "connectionId": "ConnectionStrings:DefaultConnection2"
+      "connectionId": "ConnectionStrings:DefaultConnection",
+      "dynamicId": null
     }
   }
 }

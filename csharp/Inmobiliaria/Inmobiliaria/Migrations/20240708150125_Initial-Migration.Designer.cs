@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Inmobiliaria.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20240705094648_CreateInitial")]
-    partial class CreateInitial
+    [Migration("20240708150125_Initial-Migration")]
+    partial class InitialMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
