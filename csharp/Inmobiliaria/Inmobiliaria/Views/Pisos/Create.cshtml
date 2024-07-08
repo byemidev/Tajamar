@@ -1,18 +1,22 @@
-﻿@model Inmobiliaria.Models.Inmueble
+﻿@model Inmobiliaria.Models.Piso
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Create";
 }
 
-<h1>Edit</h1>
+<h1>Create</h1>
 
-<h4>Inmueble</h4>
+<h4>Piso</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="id" />
+            <div class="form-group">
+                <label asp-for="planta" class="control-label"></label>
+                <input asp-for="planta" class="form-control" />
+                <span asp-validation-for="planta" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <label asp-for="direccion" class="control-label"></label>
                 <input asp-for="direccion" class="form-control" />
@@ -39,7 +43,7 @@
                 <span asp-validation-for="fecha_construccion" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>

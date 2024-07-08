@@ -6,43 +6,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Inmobiliaria.Models;
-using System.Net.WebSockets;
 
 namespace Inmobiliaria.Controllers
 {
-    public class InmueblesController : Controller
+    public class LocalesController : Controller
     {
         private readonly Contexto _context;
 
-        public InmueblesController(Contexto context)
+        public LocalesController(Contexto context)
         {
             _context = context;
         }
 
-        //calcular precio mercado 
-        public IActionResult  getPiso(int id) {// tengo que recibir el id de manera adecuada
-            using (_context) { 
-                    var inmueble = _context.Inmuebles
-                    .Where(x => x.id == id) 
-                    .FirstOrDefault();
-                if (inmueble!=null)
-                {
-                    return View(inmueble);
-
-                } else {
-                    Console.WriteLine("No se ha realizado la operacion");
-                    return View(null);  
-                }
-            }
-        }
-
-        // GET: Inmuebles
+        // GET: Locales
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Inmuebles.ToListAsync());
+            return View(await _context.Local.ToListAsync());
         }
 
-        // GET: Inmuebles/Details/5
+        // GET: Locales/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -50,39 +32,39 @@ namespace Inmobiliaria.Controllers
                 return NotFound();
             }
 
-            var inmueble = await _context.Inmuebles
+            var local = await _context.Local
                 .FirstOrDefaultAsync(m => m.id == id);
-            if (inmueble == null)
+            if (local == null)
             {
                 return NotFound();
             }
 
-            return View(inmueble);
+            return View(local);
         }
 
-        // GET: Inmuebles/Create
+        // GET: Locales/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Inmuebles/Create
+        // POST: Locales/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("id,direccion,metros,es_nuevo,precio_base,fecha_construccion")] Inmueble inmueble)
+        public async Task<IActionResult> Create([Bind("nro_ventanas,id,direccion,metros,es_nuevo,precio_base,fecha_construccion")] Local local)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(inmueble);
+                _context.Add(local);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(inmueble);
+            return View(local);
         }
 
-        // GET: Inmuebles/Edit/5
+        // GET: Locales/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -90,22 +72,22 @@ namespace Inmobiliaria.Controllers
                 return NotFound();
             }
 
-            var inmueble = await _context.Inmuebles.FindAsync(id);
-            if (inmueble == null)
+            var local = await _context.Local.FindAsync(id);
+            if (local == null)
             {
                 return NotFound();
             }
-            return View(inmueble);
+            return View(local);
         }
 
-        // POST: Inmuebles/Edit/5
+        // POST: Locales/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int? id, [Bind("id,direccion,metros,es_nuevo,precio_base,fecha_construccion")] Inmueble inmueble)
+        public async Task<IActionResult> Edit(int? id, [Bind("nro_ventanas,id,direccion,metros,es_nuevo,precio_base,fecha_construccion")] Local local)
         {
-            if (id != inmueble.id)
+            if (id != local.id)
             {
                 return NotFound();
             }
@@ -114,12 +96,12 @@ namespace Inmobiliaria.Controllers
             {
                 try
                 {
-                    _context.Update(inmueble);
+                    _context.Update(local);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!InmuebleExists(inmueble.id))
+                    if (!LocalExists(local.id))
                     {
                         return NotFound();
                     }
@@ -130,10 +112,10 @@ namespace Inmobiliaria.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(inmueble);
+            return View(local);
         }
 
-        // GET: Inmuebles/Delete/5
+        // GET: Locales/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -141,34 +123,34 @@ namespace Inmobiliaria.Controllers
                 return NotFound();
             }
 
-            var inmueble = await _context.Inmuebles
+            var local = await _context.Local
                 .FirstOrDefaultAsync(m => m.id == id);
-            if (inmueble == null)
+            if (local == null)
             {
                 return NotFound();
             }
 
-            return View(inmueble);
+            return View(local);
         }
 
-        // POST: Inmuebles/Delete/5
+        // POST: Locales/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int? id)
         {
-            var inmueble = await _context.Inmuebles.FindAsync(id);
-            if (inmueble != null)
+            var local = await _context.Local.FindAsync(id);
+            if (local != null)
             {
-                _context.Inmuebles.Remove(inmueble);
+                _context.Local.Remove(local);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool InmuebleExists(int? id)
+        private bool LocalExists(int? id)
         {
-            return _context.Inmuebles.Any(e => e.id == id);
+            return _context.Local.Any(e => e.id == id);
         }
     }
 }

@@ -24,6 +24,21 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Inmuebles")">
+                                <i class="bi bi-house-fill"></i> Ver Inmuebles
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Pisos")">
+                                <i class="bi bi-house-fill"></i> Ver Pisos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Locales")">
+                                <i class="bi bi-house-fill"></i> Ver Locales
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
@@ -31,42 +46,12 @@
             </div>
         </nav>
     </header>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-2 bg-light d-flex flex-column justify-content-between sidebar">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="@Url.Action("Index", "Inmuebles")">
-                            <i class="bi bi-house-fill"></i> Ver Inmuebles
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Create", "Inmuebles")">
-                            <i class="bi bi-plus-square"></i> Crear Inmuebles
-                        </a>
-                    </li>
-                </ul>
-
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Edit", "Inmuebles")">
-                            <i class="bi bi-pencil-square"></i> Editar Inmuebles
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="@Url.Action("Delete", "Inmuebles")">
-                            <i class="bi bi-trash"></i> Eliminar Inmuebles
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-md-10">
-                @RenderBody()
-            </div>
-        </div>
+    <!-- to render te result of the menu-->
+    <div class="col-md-10">
+        @RenderBody()
     </div>
 
+    <!-- is not used for now, for home controller vies-->
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

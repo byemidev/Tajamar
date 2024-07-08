@@ -22,10 +22,10 @@
                 <input asp-for="metros" class="form-control" />
                 <span asp-validation-for="metros" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="es_nuevo" /> @Html.DisplayNameFor(model => model.es_nuevo)
-                </label>
+            <div class="form-group">
+                <label asp-for="es_nuevo" class="control-label"></label>
+                <input asp-for="es_nuevo" class="form-control" />
+                <span asp-validation-for="es_nuevo" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="precio_base" class="control-label"></label>

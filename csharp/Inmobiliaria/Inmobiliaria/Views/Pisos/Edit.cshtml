@@ -1,4 +1,4 @@
-﻿@model Inmobiliaria.Models.Inmueble
+﻿@model Inmobiliaria.Models.Piso
 
 @{
     ViewData["Title"] = "Edit";
@@ -6,12 +6,17 @@
 
 <h1>Edit</h1>
 
-<h4>Inmueble</h4>
+<h4>Piso</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="planta" class="control-label"></label>
+                <input asp-for="planta" class="form-control" />
+                <span asp-validation-for="planta" class="text-danger"></span>
+            </div>
             <input type="hidden" asp-for="id" />
             <div class="form-group">
                 <label asp-for="direccion" class="control-label"></label>

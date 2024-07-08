@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Inmobiliaria.Models;
 
 
 namespace Inmobiliaria.Models
@@ -27,5 +28,9 @@ namespace Inmobiliaria.Models
             modelBuilder.Entity<Piso>();
             modelBuilder.Entity<Local>();
         }
+
+public DbSet<Inmobiliaria.Models.Local> Local { get; set; } = default!;
+
+public DbSet<Inmobiliaria.Models.Piso> Piso { get; set; } = default!;
     }
 }

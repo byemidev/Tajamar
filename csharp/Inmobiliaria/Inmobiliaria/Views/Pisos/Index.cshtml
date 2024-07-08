@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Inmobiliaria.Models.Inmueble>
+﻿@model IEnumerable<Inmobiliaria.Models.Piso>
 
 @{
     ViewData["Title"] = "Index";
@@ -12,6 +12,9 @@
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.planta)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.direccion)
             </th>
@@ -33,6 +36,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.planta)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.direccion)
             </td>

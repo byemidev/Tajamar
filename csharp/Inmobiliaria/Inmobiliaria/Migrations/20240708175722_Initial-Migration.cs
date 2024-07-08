@@ -17,13 +17,13 @@ namespace Inmobiliaria.Migrations
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    direccion = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    metros = table.Column<int>(type: "int", nullable: false),
-                    es_nuevo = table.Column<bool>(type: "bit", nullable: false),
-                    precio_base = table.Column<double>(type: "float", nullable: false),
-                    fecha_construccion = table.Column<DateOnly>(type: "date", nullable: false),
+                    direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    metros = table.Column<int>(type: "int", nullable: true),
+                    es_nuevo = table.Column<bool>(type: "bit", nullable: true),
+                    precio_base = table.Column<double>(type: "float", nullable: true),
+                    fecha_construccion = table.Column<DateOnly>(type: "date", nullable: true),
                     Tipo = table.Column<string>(type: "nvarchar(8)", maxLength: 8, nullable: false),
-                    nro_ventas = table.Column<int>(type: "int", nullable: true),
+                    nro_ventanas = table.Column<int>(type: "int", nullable: true),
                     planta = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>

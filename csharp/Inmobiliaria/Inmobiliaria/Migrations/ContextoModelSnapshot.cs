@@ -24,11 +24,11 @@ namespace Inmobiliaria.Migrations
 
             modelBuilder.Entity("Inmobiliaria.Models.Inmueble", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int?>("id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("id"));
 
                     b.Property<string>("Tipo")
                         .IsRequired()
@@ -36,19 +36,18 @@ namespace Inmobiliaria.Migrations
                         .HasColumnType("nvarchar(8)");
 
                     b.Property<string>("direccion")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<bool>("es_nuevo")
+                    b.Property<bool?>("es_nuevo")
                         .HasColumnType("bit");
 
-                    b.Property<DateOnly>("fecha_construccion")
+                    b.Property<DateOnly?>("fecha_construccion")
                         .HasColumnType("date");
 
-                    b.Property<int>("metros")
+                    b.Property<int?>("metros")
                         .HasColumnType("int");
 
-                    b.Property<double>("precio_base")
+                    b.Property<double?>("precio_base")
                         .HasColumnType("float");
 
                     b.HasKey("id");
@@ -64,7 +63,7 @@ namespace Inmobiliaria.Migrations
                 {
                     b.HasBaseType("Inmobiliaria.Models.Inmueble");
 
-                    b.Property<int>("nro_ventas")
+                    b.Property<int?>("nro_ventanas")
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Local");
@@ -74,7 +73,7 @@ namespace Inmobiliaria.Migrations
                 {
                     b.HasBaseType("Inmobiliaria.Models.Inmueble");
 
-                    b.Property<int>("planta")
+                    b.Property<int?>("planta")
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Piso");
