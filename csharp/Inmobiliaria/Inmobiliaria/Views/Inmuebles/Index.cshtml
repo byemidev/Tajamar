@@ -43,7 +43,7 @@
                 @Html.DisplayFor(modelItem => item.es_nuevo)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.precio_base)
+                @item.precio_base.GetValueOrDefault().ToString("C2")
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.fecha_construccion)
