@@ -1,0 +1,111 @@
+[
+  {
+    "ContainingType": "BiblioAPI.Controllers.BibliotecasAPIController",
+    "Method": "Getbibliotecas",
+    "RelativePath": "api/BibliotecasAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BiblioAPI.Models.Biblioteca, BiblioAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BiblioAPI.Controllers.BibliotecasAPIController",
+    "Method": "PostBiblioteca",
+    "RelativePath": "api/BibliotecasAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "biblioteca",
+        "Type": "BiblioAPI.Models.Biblioteca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BiblioAPI.Models.Biblioteca",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BiblioAPI.Controllers.BibliotecasAPIController",
+    "Method": "GetBiblioteca",
+    "RelativePath": "api/BibliotecasAPI/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "BiblioAPI.Models.Biblioteca",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BiblioAPI.Controllers.BibliotecasAPIController",
+    "Method": "PutBiblioteca",
+    "RelativePath": "api/BibliotecasAPI/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "biblioteca",
+        "Type": "BiblioAPI.Models.Biblioteca",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BiblioAPI.Controllers.BibliotecasAPIController",
+    "Method": "DeleteBiblioteca",
+    "RelativePath": "api/BibliotecasAPI/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
