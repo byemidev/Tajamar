@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using BiblioAPI.Models;
 
 namespace BiblioAPI.Models
 {
@@ -10,6 +9,6 @@ namespace BiblioAPI.Models
         }
 
         public DbSet<Biblioteca> bibliotecas { get; set; } = null; 
-        public DbSet<BiblioAPI.Models.Libro> Libro { get; set; } = default!;
+        public DbSet<Libro> Libro { get; set; } = default!;
     }
 }

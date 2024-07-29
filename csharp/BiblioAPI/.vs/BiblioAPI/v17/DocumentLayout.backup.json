@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\mvcbiblioteca\\services\\bibliotecaapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|solutionrelative:mvcbiblioteca\\services\\bibliotecaapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\mvcbiblioteca\\services\\interfaces\\ibibliotecasapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|solutionrelative:mvcbiblioteca\\services\\interfaces\\ibibliotecasapiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\mvcbiblioteca\\helpers\\httpclientextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|solutionrelative:mvcbiblioteca\\helpers\\httpclientextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\mvcbiblioteca\\models\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|solutionrelative:mvcbiblioteca\\models\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45CD64A3-552B-4CD9-892A-A64F112E582B}|BiblioAPI\\BiblioAPI.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\biblioapi\\models\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45CD64A3-552B-4CD9-892A-A64F112E582B}|BiblioAPI\\BiblioAPI.csproj|solutionrelative:biblioapi\\models\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\mvcbiblioteca\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|solutionrelative:mvcbiblioteca\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\mvcbiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{227D7998-8804-4E0F-A434-4C59C911106B}|MVCBiblioteca\\MVCBiblioteca.csproj|solutionrelative:mvcbiblioteca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45CD64A3-552B-4CD9-892A-A64F112E582B}|BiblioAPI\\BiblioAPI.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\biblioapi\\biblioapi\\models\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45CD64A3-552B-4CD9-892A-A64F112E582B}|BiblioAPI\\BiblioAPI.csproj|solutionrelative:biblioapi\\models\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BibliotecaAPIService.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Services\\BibliotecaAPIService.cs",
+              "RelativeDocumentMoniker": "MVCBiblioteca\\Services\\BibliotecaAPIService.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Services\\BibliotecaAPIService.cs*",
+              "RelativeToolTip": "MVCBiblioteca\\Services\\BibliotecaAPIService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:57:29.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBibliotecasAPIService.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Services\\Interfaces\\IBibliotecasAPIService.cs",
+              "RelativeDocumentMoniker": "MVCBiblioteca\\Services\\Interfaces\\IBibliotecasAPIService.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Services\\Interfaces\\IBibliotecasAPIService.cs",
+              "RelativeToolTip": "MVCBiblioteca\\Services\\Interfaces\\IBibliotecasAPIService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:56:11.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HttpClientExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Helpers\\HttpClientExtensions.cs",
+              "RelativeDocumentMoniker": "MVCBiblioteca\\Helpers\\HttpClientExtensions.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Helpers\\HttpClientExtensions.cs",
+              "RelativeToolTip": "MVCBiblioteca\\Helpers\\HttpClientExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:53:56.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\BiblioAPI\\Models\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "BiblioAPI\\Models\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\BiblioAPI\\Models\\Biblioteca.cs",
+              "RelativeToolTip": "BiblioAPI\\Models\\Biblioteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:51:39.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "MVCBiblioteca\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Models\\Libro.cs",
+              "RelativeToolTip": "MVCBiblioteca\\Models\\Libro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:50:57.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Models\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "MVCBiblioteca\\Models\\Biblioteca.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Models\\Biblioteca.cs",
+              "RelativeToolTip": "MVCBiblioteca\\Models\\Biblioteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:50:43.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Program.cs",
+              "RelativeDocumentMoniker": "MVCBiblioteca\\Program.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\MVCBiblioteca\\Program.cs",
+              "RelativeToolTip": "MVCBiblioteca\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:38:17.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\BiblioAPI\\Models\\ApiDbContext.cs",
+              "RelativeDocumentMoniker": "BiblioAPI\\Models\\ApiDbContext.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\BiblioAPI\\BiblioAPI\\Models\\ApiDbContext.cs",
+              "RelativeToolTip": "BiblioAPI\\Models\\ApiDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T16:32:54.623Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
