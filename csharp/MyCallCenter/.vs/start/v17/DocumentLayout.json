@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webapi\\webapi\\modelo\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi\\modelo\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webapi\\webapi\\modelo\\peticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi\\modelo\\peticion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webapi\\webapi\\modelo\\proceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi\\modelo\\proceso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8545F45-335E-4D9F-9D36-5F2428FBB0B4}|WebAPI\\WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webgestion\\webgestion\\models\\routing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|solutionrelative:webgestion\\webgestion\\models\\routing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webgestion\\webgestion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|solutionrelative:webgestion\\webgestion\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webgestion\\webgestion\\controllers\\routingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|solutionrelative:webgestion\\webgestion\\controllers\\routingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|c:\\users\\cursostardes\\documents\\repos\\mycallcenter\\webgestion\\webgestion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE20B4FD-1F54-4515-841D-8AC1E734FF71}|WebGestion\\WebGestion\\WebGestion.csproj|solutionrelative:webgestion\\webgestion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConexionBD.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Modelo\\ConexionBD.cs",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI\\Modelo\\ConexionBD.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Modelo\\ConexionBD.cs",
+              "RelativeToolTip": "WebAPI\\WebAPI\\Modelo\\ConexionBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:38:01.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Peticion.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Modelo\\Peticion.cs",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI\\Modelo\\Peticion.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Modelo\\Peticion.cs",
+              "RelativeToolTip": "WebAPI\\WebAPI\\Modelo\\Peticion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:37:51.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Proceso.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Modelo\\Proceso.cs",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI\\Modelo\\Proceso.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Modelo\\Proceso.cs",
+              "RelativeToolTip": "WebAPI\\WebAPI\\Modelo\\Proceso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:37:31.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebAPI\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:36:01.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routing.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\Models\\Routing.cs",
+              "RelativeDocumentMoniker": "WebGestion\\WebGestion\\Models\\Routing.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\Models\\Routing.cs",
+              "RelativeToolTip": "WebGestion\\WebGestion\\Models\\Routing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:25:21.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebGestion\\WebGestion\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebGestion\\WebGestion\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T16:24:55.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RoutingsController.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\Controllers\\RoutingsController.cs",
+              "RelativeDocumentMoniker": "WebGestion\\WebGestion\\Controllers\\RoutingsController.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\Controllers\\RoutingsController.cs",
+              "RelativeToolTip": "WebGestion\\WebGestion\\Controllers\\RoutingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T16:24:46.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\appsettings.json",
+              "RelativeDocumentMoniker": "WebGestion\\WebGestion\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\MyCallCenter\\WebGestion\\WebGestion\\appsettings.json",
+              "RelativeToolTip": "WebGestion\\WebGestion\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-04T16:11:23.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.PeticionController",
+    "Method": "Get",
+    "RelativePath": "Peticion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "miPeticion",
+        "Type": "WebAPI.Modelo.Peticion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPI.Modelo.Respuesta",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetPeticion"
+  }
+]
