@@ -1,5 +1,6 @@
+/**needs to import RouterModule for routing  */
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
 @Component({
@@ -7,16 +8,18 @@ import { HomeComponent } from './home/home.component';
   selector: 'app',
   standalone: true,
   imports: [
-    RouterOutlet , 
+    RouterModule, 
     HomeComponent
   ],
   template: `
   <main>
-    <header class="brand-name">
-      <img class="brand-logo" src="favicon.ico" alt="logo" aria-hidden="true">
-    </header>
+    <a [routerLink]="['/']">
+      <header class="brand-name">
+        <img class="brand-logo" src="favicon.ico" alt="logo" aria-hidden="true">
+      </header>
+    </a>
     <section class="content">
-      <app-home></app-home>
+      <router-outlet></router-outlet>
     </section>
   </main>
 `,
