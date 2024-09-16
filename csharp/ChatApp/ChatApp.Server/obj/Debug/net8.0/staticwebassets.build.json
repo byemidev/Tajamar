@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "WvZzHzRGpjwOCT/VBZOxTJ5hWDL7sbtJTRGHoFhoRaA=",
+  "Source": "ChatApp.Server",
+  "BasePath": "_content/ChatApp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\chatapp.client.esproj",
+      "Version": 2,
+      "Source": "chatapp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
