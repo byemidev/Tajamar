@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6X4YLPrrbz4=",
+  "dgSpecHash": "aZEqNQQAdzQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+  "projectFilePath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cursostardes\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.8\\microsoft.aspnetcore.spaproxy.8.0.8.nupkg.sha512",
     "C:\\Users\\Cursostardes\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

@@ -19,7 +19,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development",
         "ASPNETCORE_HOSTINGSTARTUPASSEMBLIES": "Microsoft.AspNetCore.SpaProxy",
         "SUPABASE_URL": "https://chnqidbsgnnchenftyll.supabase.co",
-        "SUPABASE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNobnFpZGJzZ25uY2hlbmZ0eWxsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY0ODY5NDMsImV4cCI6MjA0MjA2Mjk0M30.R1Xo438zNZrvibUHQDVsFx9hJ62LJsGQPVuuTwI2aPE"
+        "SUPABASE_ACCESS_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNobnFpZGJzZ25uY2hlbmZ0eWxsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY0ODY5NDMsImV4cCI6MjA0MjA2Mjk0M30.R1Xo438zNZrvibUHQDVsFx9hJ62LJsGQPVuuTwI2aPE"
       },
       "dotnetRunMessages": true,
       "applicationUrl": "https://localhost:7121;http://localhost:5149"

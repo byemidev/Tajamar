@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj": {}
+    "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj": {
+    "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+        "projectUniqueName": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
         "projectName": "ChatApp.Server",
-        "projectPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+        "projectPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
         "packagesPath": "C:\\Users\\Cursostardes\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\obj\\",
         "projectStyle": "PackageReference",

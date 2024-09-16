@@ -5,12 +5,12 @@ using Supabase;
 var builder = WebApplication.CreateBuilder(args);
 
 var supaUrl = Environment.GetEnvironmentVariable("SUPABASE_URL");
-var supaKey = Environment.GetEnvironmentVariable("SUPABASE_KEY");
+var supaKey = Environment.GetEnvironmentVariable("SUPABASE_ACCESS_TOKEN");
 
 //Supabase client as a service
 builder.Services.AddScoped<Supabase.Client>( _ => new Supabase.Client(
-        builder.Configuration[supaUrl],
-        builder.Configuration[supaKey], 
+        supaUrl,
+        supaKey, 
         new SupabaseOptions { 
             AutoRefreshToken = true,
             AutoConnectRealtime = true
