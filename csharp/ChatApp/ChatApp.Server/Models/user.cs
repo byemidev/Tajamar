@@ -11,9 +11,9 @@ namespace ChatApp.Server.Models
         public int Id { get; set; }
         [Column("name")]
         public string Name { get; set; }
-        [Column("created_at")]
+        [Column("avatar")]
+        public string AvatarUrl { get; set; }
+        [Column("createdAt")]
         public DateTime CreatedAt { get; set; }
-        [Column("room.id")]
-        public long idRoom { get; set; }
     }
 }

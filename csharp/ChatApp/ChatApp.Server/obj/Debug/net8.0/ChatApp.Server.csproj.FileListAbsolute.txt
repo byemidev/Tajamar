@@ -106,3 +106,6 @@ C:\Users\goeth\Documents\repos\Tajamar\csharp\ChatApp\ChatApp.Server\obj\Debug\n
 C:\Users\goeth\Documents\repos\Tajamar\csharp\ChatApp\ChatApp.Server\obj\Debug\net8.0\ChatApp.Server.pdb
 C:\Users\goeth\Documents\repos\Tajamar\csharp\ChatApp\ChatApp.Server\obj\Debug\net8.0\ChatApp.Server.genruntimeconfig.cache
 C:\Users\goeth\Documents\repos\Tajamar\csharp\ChatApp\ChatApp.Server\obj\Debug\net8.0\ref\ChatApp.Server.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\chatApp\ChatApp.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\chatApp\ChatApp.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Cursostardes\Documents\repos\Tajamar\csharp\chatApp\ChatApp.Server\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

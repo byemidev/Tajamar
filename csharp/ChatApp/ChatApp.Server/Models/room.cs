@@ -8,12 +8,13 @@ namespace ChatApp.Server.Models
     {
 
         [PrimaryKey("id", false)] //indicates that never can be take null values because is created in the supabase db side 
-        public long id { get; set; }
+        public long Id { get; set; }
         
         [Column("name")]
-        public string name{ get; set; }
-
-        [Column("created_at")]
-        public DateTime createdAt { get; set; }
+        public string Name{ get; set; }
+        [Column("description")]
+        public string Description{ get; set; }
+        [Column("createdAt")]
+        public DateTime CreatedAt { get; set; }
     }
 }

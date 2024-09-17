@@ -1,11 +1,13 @@
-﻿namespace ChatApp.Server.Contracts
+﻿using ChatApp.Server.Models;
+
+namespace ChatApp.Server.Contracts
 {
         public class RoomsResponse
         {
-            //todo
-            public long id { get; set; }
-            public string name{ get; set; }
-            public DateTime createdAt { get; set; }
-
-        }
+            //done
+            public long Id { get; set; }
+            public string Name{ get; set; }
+            public string Description{ get; set; }
+            public DateTime CreatedAt { get; set; }
+    }
 }
