@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "K8+6aIDEw3OapD2PW2Y3ydz+ltvJwLmmzabjIhdbzfY=",
+  "Hash": "+ZVDhsv/QLnsN3zDlEQuuugjaQL5BHNkGg1zE8EQtAw=",
   "Source": "ChatApp.Server",
   "BasePath": "_content/ChatApp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\chatapp.client\\chatapp.client.esproj",
+      "Identity": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\chatapp.client.esproj",
       "Version": 2,
       "Source": "chatapp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
@@ -19,6 +19,5 @@
     }
   ],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }

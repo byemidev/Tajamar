@@ -35,42 +35,44 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.MapPost("/room", async( CreateRoomsRequest request , 
+app.MapPost("/room", async( CreateRoomRequest request , 
     Supabase.Client client)  => {
             var room = new room
             {
-                Name = request.Name,
-                CreatedAt = request.CreatedAt
+                name = request.Name,
             };    
 
-            var response = await client .From<room>().Insert(room);
+            var response = await client.From<room>().Insert(room);
             var newRoom = response.Models.First();
-        return Results.Ok(newRoom); 
+        return Results.Ok(newRoom.id); 
 
     });
 
 
 app.MapGet("/room/{id}", async(long id, Supabase.Client client) => {
     
-    var response = await client.From<room>().Where(n => n.Id == id).Get(); 
+    var response = await client.From<room>().Where(n => n.id == id).Get(); 
     var room = response.Models.FirstOrDefault();
     
     if (room  is null) {
         return Results.NotFound();
     }
     
-    var roomResponse = new room {
-        Id = room.Id, 
-        Name = room.Name,
-        CreatedAt = room.CreatedAt
+    var roomResponse = new RoomsResponse
+    {
+        id = room.id, 
+        name = room.name,
+        createdAt = room.createdAt
     }; 
 
     return Results.Ok(roomResponse);    
 
 });
 
+//endpoints for gives access to users (/room/{id}/users)
+
 app.MapDelete("/room/{id}", async(long id, Supabase.Client client) => {
-    await client.From<room>().Where(n => n.Id == id).Delete();
+    await client.From<room>().Where(n => n.id == id).Delete();
     return Results.NoContent();    
 });
 
