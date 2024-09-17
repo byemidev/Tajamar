@@ -29,7 +29,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddAuthorization();
 
-//securing jwt secret for expose in API  
+//encoding jwt secret do not exposed on API  
 var bytes = Encoding.UTF8.GetBytes(builder.Configuration["Authentication:JwtSecret"]!);
 
 builder.Services.AddAuthentication().AddJwtBearer(o => {

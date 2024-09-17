@@ -1375,24 +1375,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cursostardes\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\goeth\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+      "projectUniqueName": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj",
       "projectName": "ChatApp.Server",
-      "projectPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
-      "packagesPath": "C:\\Users\\Cursostardes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\obj\\",
+      "projectPath": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+      "packagesPath": "C:\\Users\\goeth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Cursostardes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\goeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1417,9 +1412,8 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+        "auditMode": "direct"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -1461,7 +1455,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
