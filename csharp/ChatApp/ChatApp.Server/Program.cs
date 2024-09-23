@@ -2,6 +2,7 @@ using ChatApp.Server.Contracts;
 using ChatApp.Server.Models;
 using Microsoft.IdentityModel.Tokens;
 using Supabase;
+using System.Security.Claims;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -20,8 +21,7 @@ builder.Services.AddScoped<Supabase.Client>( _ => new Supabase.Client(
             AutoConnectRealtime = true
         }
     ));
-// Add services to the container.
-builder.Services.AddControllers();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 
@@ -71,7 +71,7 @@ app.MapPost("/room", async( CreateRoomRequest request ,
         
         return Results.Ok(newRoom.Id); 
 
-    }).RequireAuthorization();
+    });
 
 //GET /room/{id}
 app.MapGet("/room/{id}", async(long id, Supabase.Client client) => {
@@ -146,12 +146,10 @@ app.MapDelete("/user/{id}", async(long id, Supabase.Client client) => {
     return Results.NoContent();
 });
 
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.MapFallbackToFile("/index.html");
+//claims transformation
+app.MapGet("/user", (ClaimsPrincipal principal) => {
+    var claims = principal.Claims.ToDictionary(c => c.Type, c => c.Value); 
+    return Results.Ok(claims);
+}).RequireAuthorization(); 
 
 app.Run();
