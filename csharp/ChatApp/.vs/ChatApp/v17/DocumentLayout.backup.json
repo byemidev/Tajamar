@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\goeth\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +14,85 @@
     {
       "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\goeth\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\main.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\karma.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\karma.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\aspnetcore-https.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\aspnetcore-https.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\chatapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\chatapp.server.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Cursostardes\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d2f8beb-784d-4078-a098-107bde35d1fe\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\contracts\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\contracts\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\contracts\\usersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\contracts\\usersresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> a980953 (rebase commit)
     },
     {
       "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\goeth\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,6 +107,7 @@
       "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\sing-in\\sing-in.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\goeth\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\sing-in\\sing-in.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\sing-in\\sing-in.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
@@ -41,6 +122,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|c:\\users\\goeth\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{96523B59-01D0-4C24-98EE-35B2B79CC76E}|chatapp.client\\chatapp.client.esproj|solutionrelative:chatapp.client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+=======
+      "AbsoluteMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|c:\\users\\cursostardes\\documents\\repos\\tajamar\\csharp\\chatapp\\chatapp.server\\contracts\\roomsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB4E9F8-D370-46C3-9330-E6F0BDA58FF1}|ChatApp.Server\\ChatApp.Server.csproj|solutionrelative:chatapp.server\\contracts\\roomsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> a980953 (rebase commit)
     }
   ],
   "DocumentGroupContainers": [
@@ -50,16 +135,278 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+=======
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.ts",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\main.ts",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\main.ts",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\main.ts",
+              "RelativeToolTip": "chatapp.client\\src\\main.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-18T15:20:46.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "proxy.conf.js",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\proxy.conf.js",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\proxy.conf.js",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\proxy.conf.js",
+              "RelativeToolTip": "chatapp.client\\src\\proxy.conf.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T15:20:34.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\tsconfig.json",
+              "RelativeDocumentMoniker": "chatapp.client\\tsconfig.json",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\tsconfig.json",
+              "RelativeToolTip": "chatapp.client\\tsconfig.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T15:20:31.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\README.md",
+              "RelativeDocumentMoniker": "chatapp.client\\README.md",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\README.md",
+              "RelativeToolTip": "chatapp.client\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-09-18T15:20:30.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\package.json",
+              "RelativeDocumentMoniker": "chatapp.client\\package.json",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\package.json",
+              "RelativeToolTip": "chatapp.client\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-18T15:20:27.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "karma.conf.js",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\karma.conf.js",
+              "RelativeDocumentMoniker": "chatapp.client\\karma.conf.js",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\karma.conf.js",
+              "RelativeToolTip": "chatapp.client\\karma.conf.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T15:20:24.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "aspnetcore-https.js",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\aspnetcore-https.js",
+              "RelativeDocumentMoniker": "chatapp.client\\aspnetcore-https.js",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\aspnetcore-https.js",
+              "RelativeToolTip": "chatapp.client\\aspnetcore-https.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-09-18T15:20:19.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "chatapp.client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-18T15:11:42.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "chatapp.client\\src\\app\\app.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-18T15:11:35.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.ts",
+              "RelativeToolTip": "chatapp.client\\src\\app\\app.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-18T15:11:20.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.component.spec.ts",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.spec.ts",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\app\\app.component.spec.ts",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.spec.ts",
+              "RelativeToolTip": "chatapp.client\\src\\app\\app.component.spec.ts",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-09-18T15:11:14.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.html",
+              "RelativeToolTip": "chatapp.client\\src\\app\\app.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-18T15:11:12.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.component.css",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.css",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\app\\app.component.css",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\app\\app.component.css",
+              "RelativeToolTip": "chatapp.client\\src\\app\\app.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-18T15:11:11.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\index.html",
+              "RelativeDocumentMoniker": "chatapp.client\\src\\index.html",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\chatapp.client\\src\\index.html",
+              "RelativeToolTip": "chatapp.client\\src\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-09-18T15:09:52.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d2f8beb-784d-4078-a098-107bde35d1fe\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d2f8beb-784d-4078-a098-107bde35d1fe\\secrets.json",
+              "ToolTip": "C:\\Users\\Cursostardes\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d2f8beb-784d-4078-a098-107bde35d1fe\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\0d2f8beb-784d-4078-a098-107bde35d1fe\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T18:16:37.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "ChatApp.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\appsettings.json",
+              "RelativeToolTip": "ChatApp.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-17T18:09:00.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ChatApp.Server.csproj",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+              "RelativeDocumentMoniker": "ChatApp.Server\\ChatApp.Server.csproj",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\chatApp\\ChatApp.Server\\ChatApp.Server.csproj",
+              "RelativeToolTip": "ChatApp.Server\\ChatApp.Server.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-17T17:13:33.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsersResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\UsersResponse.cs",
+              "RelativeDocumentMoniker": "ChatApp.Server\\Contracts\\UsersResponse.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\UsersResponse.cs",
+              "RelativeToolTip": "ChatApp.Server\\Contracts\\UsersResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T16:18:00.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "ChatApp.Server\\Contracts\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\CreateUserRequest.cs",
+              "RelativeToolTip": "ChatApp.Server\\Contracts\\CreateUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T15:51:08.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoomsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\RoomsResponse.cs",
+              "RelativeDocumentMoniker": "ChatApp.Server\\Contracts\\RoomsResponse.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\RoomsResponse.cs",
+              "RelativeToolTip": "ChatApp.Server\\Contracts\\RoomsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T22:12:40.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CreateRoomRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\CreateRoomRequest.cs",
+              "RelativeDocumentMoniker": "ChatApp.Server\\Contracts\\CreateRoomRequest.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Contracts\\CreateRoomRequest.cs",
+              "RelativeToolTip": "ChatApp.Server\\Contracts\\CreateRoomRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T21:38:11.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+>>>>>>> a980953 (rebase commit)
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Program.cs",
               "RelativeDocumentMoniker": "ChatApp.Server\\Program.cs",
               "ToolTip": "C:\\Users\\goeth\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Program.cs",
               "RelativeToolTip": "ChatApp.Server\\Program.cs",
+<<<<<<< HEAD
               "ViewState": "AgIAAGcAAAAAAAAAAAAAAJgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T21:22:37.11Z",
@@ -173,6 +520,35 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
               "WhenOpened": "2024-09-19T12:16:03.864Z"
+=======
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T21:24:43.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "user.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Models\\user.cs",
+              "RelativeDocumentMoniker": "ChatApp.Server\\Models\\user.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Models\\user.cs",
+              "RelativeToolTip": "ChatApp.Server\\Models\\user.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T21:37:31.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "room.cs",
+              "DocumentMoniker": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Models\\room.cs",
+              "RelativeDocumentMoniker": "ChatApp.Server\\Models\\room.cs",
+              "ToolTip": "C:\\Users\\Cursostardes\\Documents\\repos\\Tajamar\\csharp\\ChatApp\\ChatApp.Server\\Models\\room.cs",
+              "RelativeToolTip": "ChatApp.Server\\Models\\room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T21:37:15.982Z"
+>>>>>>> a980953 (rebase commit)
             }
           ]
         }
