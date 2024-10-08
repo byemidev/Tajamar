@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -11,3 +12,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+=======
+>>>>>>> a980953 (rebase commit)
